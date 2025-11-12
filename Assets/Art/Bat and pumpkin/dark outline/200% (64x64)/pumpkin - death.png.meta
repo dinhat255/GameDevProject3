@@ -1,0 +1,1950 @@
+fileFormatVersion: 2
+guid: 9d663353450b60f4e91daddce389fcbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2936035956963219292
+    second: pumpkin - death_0
+  - first:
+      213: 4654840702910283595
+    second: pumpkin - death_1
+  - first:
+      213: 6613096622082642471
+    second: pumpkin - death_2
+  - first:
+      213: 653929564805707401
+    second: pumpkin - death_3
+  - first:
+      213: 1099165779298454751
+    second: pumpkin - death_4
+  - first:
+      213: -1245557917651976104
+    second: pumpkin - death_5
+  - first:
+      213: 7790156967913808647
+    second: pumpkin - death_6
+  - first:
+      213: 3421593664360326572
+    second: pumpkin - death_7
+  - first:
+      213: -6057002679073619474
+    second: pumpkin - death_8
+  - first:
+      213: -5502765036597165308
+    second: pumpkin - death_9
+  - first:
+      213: -312100195878742980
+    second: pumpkin - death_10
+  - first:
+      213: -966635498323249474
+    second: pumpkin - death_11
+  - first:
+      213: -3051797010669992070
+    second: pumpkin - death_12
+  - first:
+      213: -2882436218486799382
+    second: pumpkin - death_13
+  - first:
+      213: 5942779558552401443
+    second: pumpkin - death_14
+  - first:
+      213: 7606282809418213416
+    second: pumpkin - death_15
+  - first:
+      213: -3523876536993894796
+    second: pumpkin - death_16
+  - first:
+      213: 8847424634479600614
+    second: pumpkin - death_17
+  - first:
+      213: -139771840500536
+    second: pumpkin - death_18
+  - first:
+      213: 3649906254723833858
+    second: pumpkin - death_19
+  - first:
+      213: -8950759806164397321
+    second: pumpkin - death_20
+  - first:
+      213: 3092395166210599377
+    second: pumpkin - death_21
+  - first:
+      213: -738876438975639719
+    second: pumpkin - death_22
+  - first:
+      213: 5723919293353784236
+    second: pumpkin - death_23
+  - first:
+      213: 388109785017089653
+    second: pumpkin - death_24
+  - first:
+      213: -3618155714620861850
+    second: pumpkin - death_25
+  - first:
+      213: 551204542397498977
+    second: pumpkin - death_26
+  - first:
+      213: -1382321837867075791
+    second: pumpkin - death_27
+  - first:
+      213: -6952737601002677618
+    second: pumpkin - death_28
+  - first:
+      213: -3743867224587170994
+    second: pumpkin - death_29
+  - first:
+      213: 7902652770942582405
+    second: pumpkin - death_30
+  - first:
+      213: -3629510758196864773
+    second: pumpkin - death_31
+  - first:
+      213: -4877045356039252703
+    second: pumpkin - death_32
+  - first:
+      213: -2821060741462530164
+    second: pumpkin - death_33
+  - first:
+      213: -303160112376457932
+    second: pumpkin - death_34
+  - first:
+      213: 176310614759277895
+    second: pumpkin - death_35
+  - first:
+      213: 7204935047963443212
+    second: pumpkin - death_36
+  - first:
+      213: 4312237129529309221
+    second: pumpkin - death_37
+  - first:
+      213: 5006824609496800191
+    second: pumpkin - death_38
+  - first:
+      213: 8066848152841890937
+    second: pumpkin - death_39
+  - first:
+      213: 7745199088382817006
+    second: pumpkin - death_40
+  - first:
+      213: 7300961715360156668
+    second: pumpkin - death_41
+  - first:
+      213: -8761492352333892982
+    second: pumpkin - death_42
+  - first:
+      213: 6198630657562335012
+    second: pumpkin - death_43
+  - first:
+      213: -3174047818777795876
+    second: pumpkin - death_44
+  - first:
+      213: 5600526916265155267
+    second: pumpkin - death_45
+  - first:
+      213: -7258707616745217415
+    second: pumpkin - death_46
+  - first:
+      213: -8513455430578170169
+    second: pumpkin - death_47
+  - first:
+      213: -2224572144039659080
+    second: pumpkin - death_48
+  - first:
+      213: 9184049053371583299
+    second: pumpkin - death_49
+  - first:
+      213: 4240174109920060591
+    second: pumpkin - death_50
+  - first:
+      213: -97454053703626990
+    second: pumpkin - death_51
+  - first:
+      213: -4278687622987951481
+    second: pumpkin - death_52
+  - first:
+      213: -8624461996644455009
+    second: pumpkin - death_53
+  - first:
+      213: -908645576235131942
+    second: pumpkin - death_54
+  - first:
+      213: 6176620300680693746
+    second: pumpkin - death_55
+  - first:
+      213: -5894043050816199692
+    second: pumpkin - death_56
+  - first:
+      213: -342510553840080975
+    second: pumpkin - death_57
+  - first:
+      213: 8811057893462261491
+    second: pumpkin - death_58
+  - first:
+      213: -1666658094833971408
+    second: pumpkin - death_59
+  - first:
+      213: -2858987520650171484
+    second: pumpkin - death_60
+  - first:
+      213: 4527461388745387407
+    second: pumpkin - death_61
+  - first:
+      213: 387910105503057261
+    second: pumpkin - death_62
+  - first:
+      213: 500532534509870546
+    second: pumpkin - death_63
+  - first:
+      213: 8405543548273928969
+    second: pumpkin - death_64
+  - first:
+      213: -6788081589511891351
+    second: pumpkin - death_65
+  - first:
+      213: 2685310826578656636
+    second: pumpkin - death_66
+  - first:
+      213: 3604850808593158439
+    second: pumpkin - death_67
+  - first:
+      213: -1359006709672365499
+    second: pumpkin - death_68
+  - first:
+      213: -239367230817479611
+    second: pumpkin - death_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pumpkin - death_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 205
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c571196a525eeb820800000000000000
+      internalID: 2936035956963219292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 223
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f3ff6f4f0599040800000000000000
+      internalID: 4654840702910283595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 223
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7225290175076cb50800000000000000
+      internalID: 6613096622082642471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 235
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986be5a7979331900800000000000000
+      internalID: 653929564805707401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 235
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc8950e375014f00800000000000000
+      internalID: 1099165779298454751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 237
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850cd235ca3e6bee0800000000000000
+      internalID: -1245557917651976104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 237
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70369010d723c1c60800000000000000
+      internalID: 7790156967913808647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 225
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5ace13f41fb7f20800000000000000
+      internalID: 3421593664360326572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_8
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 225
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee14a3e972431fba0800000000000000
+      internalID: -6057002679073619474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_9
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 223
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403cf27aa5042a3b0800000000000000
+      internalID: -5502765036597165308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 223
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34515286823babf0800000000000000
+      internalID: -312100195878742980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 205
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6f82fb222d592f0800000000000000
+      internalID: -966635498323249474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_12
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 207
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a778a64b9c6d5a5d0800000000000000
+      internalID: -3051797010669992070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 207
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3cf55f7878ff7d0800000000000000
+      internalID: -2882436218486799382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_14
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 203
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326f7f5b58ef87250800000000000000
+      internalID: 5942779558552401443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_15
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 203
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82868845ae1fe8960800000000000000
+      internalID: 7606282809418213416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 141
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e252cb5fca81fc0800000000000000
+      internalID: -3523876536993894796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 167
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3623354dd58ca70800000000000000
+      internalID: 8847424634479600614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 165
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cce815d0e08ffff0800000000000000
+      internalID: -139771840500536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 175
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2006a40966217a230800000000000000
+      internalID: 3649906254723833858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_20
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 173
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f21ab3216388c380800000000000000
+      internalID: -8950759806164397321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_21
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 181
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d92e1bf4056aea20800000000000000
+      internalID: 3092395166210599377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 177
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f83f12bcbfeb5f0800000000000000
+      internalID: -738876438975639719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_23
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 165
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca37b5b45427f6f40800000000000000
+      internalID: 5723919293353784236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 155
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57efbcd0bc7d26500800000000000000
+      internalID: 388109785017089653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_25
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 167
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66259ff1c8ab9cdc0800000000000000
+      internalID: -3618155714620861850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_26
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 157
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1664f246c9546a700800000000000000
+      internalID: 551204542397498977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 167
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137faa0cc9101dce0800000000000000
+      internalID: -1382321837867075791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 151
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8adbb33df9e28f90800000000000000
+      internalID: -6952737601002677618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 135
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b0148589c1b0cc0800000000000000
+      internalID: -3743867224587170994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_30
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 143
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ef94b33dcdbad60800000000000000
+      internalID: 7902652770942582405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_31
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 157
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf89735023361adc0800000000000000
+      internalID: -3629510758196864773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_32
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 133
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125dfcf9611415cb0800000000000000
+      internalID: -4877045356039252703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_33
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 147
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c876357c33499d8d0800000000000000
+      internalID: -2821060741462530164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_34
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 131
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435dbb7eb75facbf0800000000000000
+      internalID: -303160112376457932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_35
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 77
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7458bdae191627200800000000000000
+      internalID: 176310614759277895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_36
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 101
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c008f93b0421df360800000000000000
+      internalID: 7204935047963443212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_37
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 103
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52838d472d428db30800000000000000
+      internalID: 4312237129529309221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_38
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 109
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb9dbd7470db7540800000000000000
+      internalID: 5006824609496800191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_39
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 111
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c282fa7a333ff60800000000000000
+      internalID: 8066848152841890937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_40
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2bcb9f8897c7b60800000000000000
+      internalID: 7745199088382817006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_41
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 117
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbc4ca7ff9325560800000000000000
+      internalID: 7300961715360156668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_42
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 91
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8236dc302de86680800000000000000
+      internalID: -8761492352333892982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_43
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 101
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42759d5cdb5f50650800000000000000
+      internalID: 6198630657562335012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_44
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 93
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd265ad535483f3d0800000000000000
+      internalID: -3174047818777795876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_45
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 103
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca9ff6be8119bd40800000000000000
+      internalID: 5600526916265155267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_46
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 103
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972aa7f71e3e34b90800000000000000
+      internalID: -7258707616745217415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_47
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 71
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6944164612ad980800000000000000
+      internalID: -8513455430578170169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_48
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 87
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b97949db6bb021e0800000000000000
+      internalID: -2224572144039659080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_49
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 79
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bc9f174fb447f70800000000000000
+      internalID: 9184049053371583299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_50
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 93
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4e79733ef18da30800000000000000
+      internalID: 4240174109920060591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_51
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 69
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fc213fd06c5aef0800000000000000
+      internalID: -97454053703626990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_52
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 83
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78251feb64c0f94c0800000000000000
+      internalID: -4278687622987951481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_53
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 67
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9da6272281cf4880800000000000000
+      internalID: -8624461996644455009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 13
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb56c1a9a7d363f0800000000000000
+      internalID: -908645576235131942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_55
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 31
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f70a863073c7b550800000000000000
+      internalID: 6176620300680693746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_56
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 31
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3ad31c217243ea0800000000000000
+      internalID: -5894043050816199692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_57
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 43
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b72a8a47782f3bf0800000000000000
+      internalID: -342510553840080975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_58
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 43
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe383b987a274a70800000000000000
+      internalID: 8811057893462261491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_59
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f44670b47ded8e0800000000000000
+      internalID: -1666658094833971408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_60
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab2f5e5ff5d258d0800000000000000
+      internalID: -2858987520650171484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_61
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 33
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d27724526c4de30800000000000000
+      internalID: 4527461388745387407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_62
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 33
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d654b4b8f22226500800000000000000
+      internalID: 387910105503057261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_63
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 31
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd9cfd20bf32f600800000000000000
+      internalID: 500532534509870546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_64
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 31
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ba1fa925d76a470800000000000000
+      internalID: 8405543548273928969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_65
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 13
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96656c652c3ebc1a0800000000000000
+      internalID: -6788081589511891351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_66
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 15
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d3bb928f3244520800000000000000
+      internalID: 2685310826578656636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_67
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 15
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721997a06b0070230800000000000000
+      internalID: 3604850808593158439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_68
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 11
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5423b9e0996d32de0800000000000000
+      internalID: -1359006709672365499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - death_69
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 11
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544514495c89dacf0800000000000000
+      internalID: -239367230817479611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pumpkin - death_0: 2936035956963219292
+      pumpkin - death_1: 4654840702910283595
+      pumpkin - death_10: -312100195878742980
+      pumpkin - death_11: -966635498323249474
+      pumpkin - death_12: -3051797010669992070
+      pumpkin - death_13: -2882436218486799382
+      pumpkin - death_14: 5942779558552401443
+      pumpkin - death_15: 7606282809418213416
+      pumpkin - death_16: -3523876536993894796
+      pumpkin - death_17: 8847424634479600614
+      pumpkin - death_18: -139771840500536
+      pumpkin - death_19: 3649906254723833858
+      pumpkin - death_2: 6613096622082642471
+      pumpkin - death_20: -8950759806164397321
+      pumpkin - death_21: 3092395166210599377
+      pumpkin - death_22: -738876438975639719
+      pumpkin - death_23: 5723919293353784236
+      pumpkin - death_24: 388109785017089653
+      pumpkin - death_25: -3618155714620861850
+      pumpkin - death_26: 551204542397498977
+      pumpkin - death_27: -1382321837867075791
+      pumpkin - death_28: -6952737601002677618
+      pumpkin - death_29: -3743867224587170994
+      pumpkin - death_3: 653929564805707401
+      pumpkin - death_30: 7902652770942582405
+      pumpkin - death_31: -3629510758196864773
+      pumpkin - death_32: -4877045356039252703
+      pumpkin - death_33: -2821060741462530164
+      pumpkin - death_34: -303160112376457932
+      pumpkin - death_35: 176310614759277895
+      pumpkin - death_36: 7204935047963443212
+      pumpkin - death_37: 4312237129529309221
+      pumpkin - death_38: 5006824609496800191
+      pumpkin - death_39: 8066848152841890937
+      pumpkin - death_4: 1099165779298454751
+      pumpkin - death_40: 7745199088382817006
+      pumpkin - death_41: 7300961715360156668
+      pumpkin - death_42: -8761492352333892982
+      pumpkin - death_43: 6198630657562335012
+      pumpkin - death_44: -3174047818777795876
+      pumpkin - death_45: 5600526916265155267
+      pumpkin - death_46: -7258707616745217415
+      pumpkin - death_47: -8513455430578170169
+      pumpkin - death_48: -2224572144039659080
+      pumpkin - death_49: 9184049053371583299
+      pumpkin - death_5: -1245557917651976104
+      pumpkin - death_50: 4240174109920060591
+      pumpkin - death_51: -97454053703626990
+      pumpkin - death_52: -4278687622987951481
+      pumpkin - death_53: -8624461996644455009
+      pumpkin - death_54: -908645576235131942
+      pumpkin - death_55: 6176620300680693746
+      pumpkin - death_56: -5894043050816199692
+      pumpkin - death_57: -342510553840080975
+      pumpkin - death_58: 8811057893462261491
+      pumpkin - death_59: -1666658094833971408
+      pumpkin - death_6: 7790156967913808647
+      pumpkin - death_60: -2858987520650171484
+      pumpkin - death_61: 4527461388745387407
+      pumpkin - death_62: 387910105503057261
+      pumpkin - death_63: 500532534509870546
+      pumpkin - death_64: 8405543548273928969
+      pumpkin - death_65: -6788081589511891351
+      pumpkin - death_66: 2685310826578656636
+      pumpkin - death_67: 3604850808593158439
+      pumpkin - death_68: -1359006709672365499
+      pumpkin - death_69: -239367230817479611
+      pumpkin - death_7: 3421593664360326572
+      pumpkin - death_8: -6057002679073619474
+      pumpkin - death_9: -5502765036597165308
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

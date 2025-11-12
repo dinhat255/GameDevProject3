@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     public float attackCooldown = 1f;  // Tấn công mỗi 1.0 giây
     private float attackTimer;
 
+    private int currentEXP = 0; // Biến đếm EXP
+
     // Biến để lưu Enemy gần nhất
     private Transform nearestEnemy;
 
@@ -104,5 +106,26 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+    }
+
+    // Hàm này tự động được Unity gọi khi Player (có Rigidbody)
+    // va chạm với một Collider khác (đã set "Is Trigger = true")
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        // Kiểm tra xem vật va chạm có Tag là "Experience" không
+        if (other.CompareTag("Experience"))
+        {
+            // Nếu đúng:
+
+            // 1. "Nhặt" (Hủy GameObject Gem đi)
+            Destroy(other.gameObject);
+
+            // 2. Tăng EXP
+            currentEXP += 1; // (Bạn có thể tăng 5, 10... tùy ý)
+
+            // 3. In ra Console để test
+            Debug.Log("EXP: " + currentEXP);
+
+            }
     }
 }

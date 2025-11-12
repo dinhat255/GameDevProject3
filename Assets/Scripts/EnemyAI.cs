@@ -9,12 +9,22 @@ public class EnemyAI : MonoBehaviour
 
     // Các biến mới
     private Animator anim; // Biến để điều khiển Animator
-    public float health = 30f; // Máu của Enemy
+    [Header("Stats")]
+    public float baseHealth = 30f; // ĐỔI TÊN: Máu cơ bản
+    public float healthPerMinute = 15f; // THÊM MỚI: Lượng máu tăng thêm mỗi phút
     public float attackRange = 1.5f; // Tầm đánh
+    // THAY ĐỔI: Chúng ta cần một biến "health" nội bộ
+    private float currentHealth;
+
+
     private bool isDead = false; // Cờ đánh dấu đã chết
+    public GameObject expGem; // Prefab của exp
 
     void Start()
     {
+        // Khi mới sinh ra, máu sẽ bằng máu cơ bản
+        currentHealth = baseHealth;
+        
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>(); // Lấy component Animator
         
@@ -27,6 +37,23 @@ public class EnemyAI : MonoBehaviour
         {
             Debug.LogError("Không tìm thấy GameObject với tag 'Player'!");
         }
+    }
+
+
+    // --- HÀM MỚI (Được gọi bởi EnemyManager) ---
+    public void ScaleStatsBasedOnTime(float gameTimeInSeconds)
+    {
+        // 1. Tính số phút đã trôi qua
+        float minutesPassed = gameTimeInSeconds / 60f;
+
+        // 2. Tính toán máu tối đa MỚI
+        float maxHealth = baseHealth + (minutesPassed * healthPerMinute);
+
+        // 3. Đặt máu hiện tại = máu tối đa (để nó spawn đầy máu)
+        currentHealth = maxHealth;
+        
+        // (Tùy chọn) Bạn cũng có thể tăng tốc độ ở đây
+        // moveSpeed = baseMoveSpeed + (minutesPassed * 0.1f);
     }
 
     void FixedUpdate()
@@ -61,9 +88,9 @@ public class EnemyAI : MonoBehaviour
     {
         if (isDead) return; // Nếu chết rồi thì không nhận sát thương nữa
 
-        health -= damageAmount;
+        currentHealth -= damageAmount;
 
-        if (health <= 0)
+        if (currentHealth <= 0)
         {
             // --- TRẠNG THÁI: CHẾT ---
             isDead = true;
@@ -74,6 +101,11 @@ public class EnemyAI : MonoBehaviour
             // Tùy chọn: Hủy đối tượng này sau vài giây
             // Destroy(gameObject, 3f); // Hủy sau 3 giây
             Destroy(gameObject, 1.0f);
+
+            if (expGem != null)
+            {
+                Instantiate(expGem, transform.position, Quaternion.identity);
+            }
         }
         else
         {
