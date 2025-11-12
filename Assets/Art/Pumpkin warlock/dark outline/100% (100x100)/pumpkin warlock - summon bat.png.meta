@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: f728bf9e52d89f548ab5c5d346ebd3a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 97378321797508139
+    second: pumpkin warlock - summon bat_0
+  - first:
+      213: -2443492187670552571
+    second: pumpkin warlock - summon bat_1
+  - first:
+      213: 6278769625620056352
+    second: pumpkin warlock - summon bat_2
+  - first:
+      213: -1734997967273423414
+    second: pumpkin warlock - summon bat_3
+  - first:
+      213: 5647292440273648033
+    second: pumpkin warlock - summon bat_4
+  - first:
+      213: 4448489082280990551
+    second: pumpkin warlock - summon bat_5
+  - first:
+      213: 8593770874831806249
+    second: pumpkin warlock - summon bat_6
+  - first:
+      213: -881275238336830937
+    second: pumpkin warlock - summon bat_7
+  - first:
+      213: -1033720179336176706
+    second: pumpkin warlock - summon bat_8
+  - first:
+      213: 6094421868690529650
+    second: pumpkin warlock - summon bat_9
+  - first:
+      213: -8178409381589079202
+    second: pumpkin warlock - summon bat_10
+  - first:
+      213: 5930414181487863969
+    second: pumpkin warlock - summon bat_11
+  - first:
+      213: 1769449528684409915
+    second: pumpkin warlock - summon bat_12
+  - first:
+      213: -351734073182275654
+    second: pumpkin warlock - summon bat_13
+  - first:
+      213: 2594910638201467665
+    second: pumpkin warlock - summon bat_14
+  - first:
+      213: 7183626371449639452
+    second: pumpkin warlock - summon bat_15
+  - first:
+      213: -2846717279759560506
+    second: pumpkin warlock - summon bat_16
+  - first:
+      213: -4100904708255270463
+    second: pumpkin warlock - summon bat_17
+  - first:
+      213: 5893112874359859521
+    second: pumpkin warlock - summon bat_18
+  - first:
+      213: -5370588920835447597
+    second: pumpkin warlock - summon bat_19
+  - first:
+      213: -1509449376883206303
+    second: pumpkin warlock - summon bat_20
+  - first:
+      213: 4097940884194805644
+    second: pumpkin warlock - summon bat_21
+  - first:
+      213: 1279953745673633885
+    second: pumpkin warlock - summon bat_22
+  - first:
+      213: 5788207230369128741
+    second: pumpkin warlock - summon bat_23
+  - first:
+      213: 7256698913300338954
+    second: pumpkin warlock - summon bat_24
+  - first:
+      213: 1024959943311420326
+    second: pumpkin warlock - summon bat_25
+  - first:
+      213: -4921036525928339558
+    second: pumpkin warlock - summon bat_26
+  - first:
+      213: -3458443511686207552
+    second: pumpkin warlock - summon bat_27
+  - first:
+      213: -492452619973513908
+    second: pumpkin warlock - summon bat_28
+  - first:
+      213: -1349196774273369808
+    second: pumpkin warlock - summon bat_29
+  - first:
+      213: -1375854928657577301
+    second: pumpkin warlock - summon bat_30
+  - first:
+      213: 6524114473673283428
+    second: pumpkin warlock - summon bat_31
+  - first:
+      213: -4031257529236041724
+    second: pumpkin warlock - summon bat_32
+  - first:
+      213: 5543793080661104960
+    second: pumpkin warlock - summon bat_33
+  - first:
+      213: -781626833867815138
+    second: pumpkin warlock - summon bat_34
+  - first:
+      213: 7535443939881999229
+    second: pumpkin warlock - summon bat_35
+  - first:
+      213: 2608526162919211602
+    second: pumpkin warlock - summon bat_36
+  - first:
+      213: 6333113656021119603
+    second: pumpkin warlock - summon bat_37
+  - first:
+      213: 5016857575797598109
+    second: pumpkin warlock - summon bat_38
+  - first:
+      213: -1891701485900583922
+    second: pumpkin warlock - summon bat_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 320
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c60975115f95100800000000000000
+      internalID: 97378321797508139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 320
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500647e2dc8f61ed0800000000000000
+      internalID: -2443492187670552571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 320
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029889945bba22750800000000000000
+      internalID: 6278769625620056352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 320
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd84aa8a8c0ce7e0800000000000000
+      internalID: -1734997967273423414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_4
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 320
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a97245cd863f5e40800000000000000
+      internalID: 5647292440273648033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_5
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 320
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757df8050453cbd30800000000000000
+      internalID: 4448489082280990551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_6
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 320
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f92733415334770800000000000000
+      internalID: 8593770874831806249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_7
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 320
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722e59507d415c3f0800000000000000
+      internalID: -881275238336830937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_8
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 320
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb938949fc77a1f0800000000000000
+      internalID: -1033720179336176706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_9
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 320
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ddba2666cb39450800000000000000
+      internalID: 6094421868690529650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 220
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b29ae9ff3708e80800000000000000
+      internalID: -8178409381589079202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 220
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8e58207401d4250800000000000000
+      internalID: 5930414181487863969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 220
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34773da8f85e8810800000000000000
+      internalID: 1769449528684409915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 220
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7b19859b36e1bf0800000000000000
+      internalID: -351734073182275654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_14
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 220
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11371ed1a79f20420800000000000000
+      internalID: 2594910638201467665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_15
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 220
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c125265df1e51b360800000000000000
+      internalID: 7183626371449639452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_16
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 220
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c017f377bd6e78d0800000000000000
+      internalID: -2846717279759560506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_17
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 220
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9b7b635e8a617c0800000000000000
+      internalID: -4100904708255270463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_18
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 220
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1492089afea88c150800000000000000
+      internalID: 5893112874359859521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_19
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 220
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d464f2c4d5d775b0800000000000000
+      internalID: -5370588920835447597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 120
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16711740acb5d0be0800000000000000
+      internalID: -1509449376883206303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 120
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c874bf8b58fced830800000000000000
+      internalID: 4097940884194805644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_22
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 120
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50cec3762f43c110800000000000000
+      internalID: 1279953745673633885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_23
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 120
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521ef7c0fc7d35050800000000000000
+      internalID: 5788207230369128741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_24
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 120
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09da39c639f4b460800000000000000
+      internalID: 7256698913300338954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_25
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 120
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abe41253a3693e00800000000000000
+      internalID: 1024959943311420326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_26
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 120
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97a1593a57f4bbb0800000000000000
+      internalID: -4921036525928339558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_27
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 120
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7603223f32100d0800000000000000
+      internalID: -3458443511686207552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_28
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 120
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4da4c583f47a29f0800000000000000
+      internalID: -492452619973513908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_29
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 120
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0393551aea0b64de0800000000000000
+      internalID: -1349196774273369808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 20
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa05e26b3bf7ece0800000000000000
+      internalID: -1375854928657577301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 20
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467d74d2c8f4a8a50800000000000000
+      internalID: 6524114473673283428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_32
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 20
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40054cbb2a81e08c0800000000000000
+      internalID: -4031257529236041724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_33
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 20
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049d2114f628fec40800000000000000
+      internalID: 5543793080661104960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_34
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 20
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17456c298a1725f0800000000000000
+      internalID: -781626833867815138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_35
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 20
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b598db656439860800000000000000
+      internalID: 7535443939881999229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_36
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 20
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252cc1089b8533420800000000000000
+      internalID: 2608526162919211602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_37
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 20
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372705dd05db3e750800000000000000
+      internalID: 6333113656021119603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_38
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 20
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97a42e72657f9540800000000000000
+      internalID: 5016857575797598109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - summon bat_39
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 20
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c21df65835fb5e0800000000000000
+      internalID: -1891701485900583922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pumpkin warlock - summon bat_0: 97378321797508139
+      pumpkin warlock - summon bat_1: -2443492187670552571
+      pumpkin warlock - summon bat_10: -8178409381589079202
+      pumpkin warlock - summon bat_11: 5930414181487863969
+      pumpkin warlock - summon bat_12: 1769449528684409915
+      pumpkin warlock - summon bat_13: -351734073182275654
+      pumpkin warlock - summon bat_14: 2594910638201467665
+      pumpkin warlock - summon bat_15: 7183626371449639452
+      pumpkin warlock - summon bat_16: -2846717279759560506
+      pumpkin warlock - summon bat_17: -4100904708255270463
+      pumpkin warlock - summon bat_18: 5893112874359859521
+      pumpkin warlock - summon bat_19: -5370588920835447597
+      pumpkin warlock - summon bat_2: 6278769625620056352
+      pumpkin warlock - summon bat_20: -1509449376883206303
+      pumpkin warlock - summon bat_21: 4097940884194805644
+      pumpkin warlock - summon bat_22: 1279953745673633885
+      pumpkin warlock - summon bat_23: 5788207230369128741
+      pumpkin warlock - summon bat_24: 7256698913300338954
+      pumpkin warlock - summon bat_25: 1024959943311420326
+      pumpkin warlock - summon bat_26: -4921036525928339558
+      pumpkin warlock - summon bat_27: -3458443511686207552
+      pumpkin warlock - summon bat_28: -492452619973513908
+      pumpkin warlock - summon bat_29: -1349196774273369808
+      pumpkin warlock - summon bat_3: -1734997967273423414
+      pumpkin warlock - summon bat_30: -1375854928657577301
+      pumpkin warlock - summon bat_31: 6524114473673283428
+      pumpkin warlock - summon bat_32: -4031257529236041724
+      pumpkin warlock - summon bat_33: 5543793080661104960
+      pumpkin warlock - summon bat_34: -781626833867815138
+      pumpkin warlock - summon bat_35: 7535443939881999229
+      pumpkin warlock - summon bat_36: 2608526162919211602
+      pumpkin warlock - summon bat_37: 6333113656021119603
+      pumpkin warlock - summon bat_38: 5016857575797598109
+      pumpkin warlock - summon bat_39: -1891701485900583922
+      pumpkin warlock - summon bat_4: 5647292440273648033
+      pumpkin warlock - summon bat_5: 4448489082280990551
+      pumpkin warlock - summon bat_6: 8593770874831806249
+      pumpkin warlock - summon bat_7: -881275238336830937
+      pumpkin warlock - summon bat_8: -1033720179336176706
+      pumpkin warlock - summon bat_9: 6094421868690529650
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

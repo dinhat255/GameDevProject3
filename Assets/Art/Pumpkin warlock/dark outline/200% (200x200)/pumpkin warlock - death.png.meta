@@ -1,0 +1,2054 @@
+fileFormatVersion: 2
+guid: 4bb674c0787bb044385585e69e338759
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7864006008855404738
+    second: pumpkin warlock - death_0
+  - first:
+      213: -6026606698072425563
+    second: pumpkin warlock - death_1
+  - first:
+      213: -5290449733266475906
+    second: pumpkin warlock - death_2
+  - first:
+      213: 4604477632461484094
+    second: pumpkin warlock - death_3
+  - first:
+      213: 248424870226420510
+    second: pumpkin warlock - death_4
+  - first:
+      213: 5247625490900755791
+    second: pumpkin warlock - death_5
+  - first:
+      213: -1751256473452051837
+    second: pumpkin warlock - death_6
+  - first:
+      213: 1677875201577987983
+    second: pumpkin warlock - death_7
+  - first:
+      213: -706044181575698008
+    second: pumpkin warlock - death_8
+  - first:
+      213: -8739851690809177981
+    second: pumpkin warlock - death_9
+  - first:
+      213: -6948405548233691899
+    second: pumpkin warlock - death_10
+  - first:
+      213: -7120142875165151457
+    second: pumpkin warlock - death_11
+  - first:
+      213: -6457651949696684340
+    second: pumpkin warlock - death_12
+  - first:
+      213: -8560236905994775262
+    second: pumpkin warlock - death_13
+  - first:
+      213: 1603581939332026350
+    second: pumpkin warlock - death_14
+  - first:
+      213: -1792484072881235585
+    second: pumpkin warlock - death_15
+  - first:
+      213: -5066754986474484359
+    second: pumpkin warlock - death_16
+  - first:
+      213: 1733902591117481120
+    second: pumpkin warlock - death_17
+  - first:
+      213: 2747413135723131472
+    second: pumpkin warlock - death_18
+  - first:
+      213: -7608092756033369746
+    second: pumpkin warlock - death_19
+  - first:
+      213: -4452663844599657415
+    second: pumpkin warlock - death_20
+  - first:
+      213: 2365088444506260773
+    second: pumpkin warlock - death_21
+  - first:
+      213: 5788000117974382739
+    second: pumpkin warlock - death_22
+  - first:
+      213: -6515459962948700191
+    second: pumpkin warlock - death_23
+  - first:
+      213: -5682720530219180803
+    second: pumpkin warlock - death_24
+  - first:
+      213: -8892941470635399129
+    second: pumpkin warlock - death_25
+  - first:
+      213: 7344633671994869453
+    second: pumpkin warlock - death_26
+  - first:
+      213: 2782103750665091112
+    second: pumpkin warlock - death_27
+  - first:
+      213: -4060692710185758649
+    second: pumpkin warlock - death_28
+  - first:
+      213: 7740170206439090645
+    second: pumpkin warlock - death_29
+  - first:
+      213: -8778347565780839587
+    second: pumpkin warlock - death_30
+  - first:
+      213: -7144582771893030538
+    second: pumpkin warlock - death_31
+  - first:
+      213: -6984333842135899537
+    second: pumpkin warlock - death_32
+  - first:
+      213: 1443350458679707484
+    second: pumpkin warlock - death_33
+  - first:
+      213: -4619093355247063872
+    second: pumpkin warlock - death_34
+  - first:
+      213: -8443059340072959431
+    second: pumpkin warlock - death_35
+  - first:
+      213: -2016987464703725160
+    second: pumpkin warlock - death_36
+  - first:
+      213: -4469517892531495546
+    second: pumpkin warlock - death_37
+  - first:
+      213: -8987343499636474870
+    second: pumpkin warlock - death_38
+  - first:
+      213: -4265026033297686722
+    second: pumpkin warlock - death_39
+  - first:
+      213: -2207239860093363918
+    second: pumpkin warlock - death_40
+  - first:
+      213: 4672138458159950820
+    second: pumpkin warlock - death_41
+  - first:
+      213: 9171045158140347642
+    second: pumpkin warlock - death_42
+  - first:
+      213: -629228966528341658
+    second: pumpkin warlock - death_43
+  - first:
+      213: 7288817133620973316
+    second: pumpkin warlock - death_44
+  - first:
+      213: -1296727847451741472
+    second: pumpkin warlock - death_45
+  - first:
+      213: 7566128202779032368
+    second: pumpkin warlock - death_46
+  - first:
+      213: -6002930446913150440
+    second: pumpkin warlock - death_47
+  - first:
+      213: -4621685774778445401
+    second: pumpkin warlock - death_48
+  - first:
+      213: -6515667481618740522
+    second: pumpkin warlock - death_49
+  - first:
+      213: -2338850050624143378
+    second: pumpkin warlock - death_50
+  - first:
+      213: 830249852777096780
+    second: pumpkin warlock - death_51
+  - first:
+      213: 5624094078512356141
+    second: pumpkin warlock - death_52
+  - first:
+      213: 6750614332174845520
+    second: pumpkin warlock - death_53
+  - first:
+      213: 4410748753167914582
+    second: pumpkin warlock - death_54
+  - first:
+      213: -5612160121672596229
+    second: pumpkin warlock - death_55
+  - first:
+      213: -6156885992810127808
+    second: pumpkin warlock - death_56
+  - first:
+      213: 6967704272932794411
+    second: pumpkin warlock - death_57
+  - first:
+      213: 6662478636660687829
+    second: pumpkin warlock - death_58
+  - first:
+      213: -1046615777323473839
+    second: pumpkin warlock - death_59
+  - first:
+      213: -27787665016941446
+    second: pumpkin warlock - death_60
+  - first:
+      213: -5308602109619481711
+    second: pumpkin warlock - death_61
+  - first:
+      213: -5419473107134152885
+    second: pumpkin warlock - death_62
+  - first:
+      213: -5069788363532129247
+    second: pumpkin warlock - death_63
+  - first:
+      213: -7869321975571275638
+    second: pumpkin warlock - death_64
+  - first:
+      213: -6285235078231606999
+    second: pumpkin warlock - death_65
+  - first:
+      213: -2451986861338543170
+    second: pumpkin warlock - death_66
+  - first:
+      213: 4167871108204795146
+    second: pumpkin warlock - death_67
+  - first:
+      213: -4161864362788348130
+    second: pumpkin warlock - death_68
+  - first:
+      213: 1282650348936018324
+    second: pumpkin warlock - death_69
+  - first:
+      213: 8535258584851408724
+    second: pumpkin warlock - death_70
+  - first:
+      213: 320623174699742360
+    second: pumpkin warlock - death_71
+  - first:
+      213: 141130320505591374
+    second: pumpkin warlock - death_72
+  - first:
+      213: -8807379185706751188
+    second: pumpkin warlock - death_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pumpkin warlock - death_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 641
+        width: 108
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3fd2a243307dd290800000000000000
+      internalID: -7864006008855404738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 729
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab376073213d5ca0800000000000000
+      internalID: -6026606698072425563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 709
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7477926ffb8496b0800000000000000
+      internalID: -5290449733266475906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 709
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30391bd20466ef30800000000000000
+      internalID: 4604477632461484094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_4
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 719
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13e73f6a15927300800000000000000
+      internalID: 248424870226420510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_5
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 715
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45ac63b49f43d840800000000000000
+      internalID: 5247625490900755791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_6
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 695
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3828945148942b7e0800000000000000
+      internalID: -1751256473452051837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_7
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 707
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f2e772b92094710800000000000000
+      internalID: 1677875201577987983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 641
+        width: 116
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9f271ce80a336f0800000000000000
+      internalID: -706044181575698008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 705
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388c8b3613fc5b680800000000000000
+      internalID: -8739851690809177981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_10
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 711
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d6d26d7fd429f90800000000000000
+      internalID: -6948405548233691899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_11
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 641
+        width: 126
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fa0c777cb203d90800000000000000
+      internalID: -7120142875165151457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_12
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 713
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce683f04cfc166a0800000000000000
+      internalID: -6457651949696684340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_13
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 713
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2251ef853ede33980800000000000000
+      internalID: -8560236905994775262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_14
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 641
+        width: 142
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef0e161741114610800000000000000
+      internalID: 1603581939332026350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 691
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f795e529b31df17e0800000000000000
+      internalID: -1792484072881235585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 689
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dcf334f254fa9b0800000000000000
+      internalID: -5066754986474484359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_17
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 687
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4dfa2583f001810800000000000000
+      internalID: 1733902591117481120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_18
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 641
+        width: 138
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052f406c0b5c02620800000000000000
+      internalID: 2747413135723131472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_19
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 691
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e698862a2ff9a6690800000000000000
+      internalID: -7608092756033369746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_20
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 691
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c896613d5f432c0800000000000000
+      internalID: -4452663844599657415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_21
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 641
+        width: 143
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5254d25d86b72d020800000000000000
+      internalID: 2365088444506260773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_22
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 641
+        width: 140
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39838cfe07b135050800000000000000
+      internalID: 5788000117974382739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_23
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 441
+        width: 98
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7b9202faf6495a0800000000000000
+      internalID: -6515459962948700191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_24
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 441
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc577e39cbe221b0800000000000000
+      internalID: -5682720530219180803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_25
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 517
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728ef6a69dce59480800000000000000
+      internalID: -8892941470635399129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_26
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 441
+        width: 112
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc680a049616de560800000000000000
+      internalID: 7344633671994869453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_27
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 517
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828bcaafe940c9620800000000000000
+      internalID: 2782103750665091112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_28
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 521
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7401c5b9e7585a7c0800000000000000
+      internalID: -4060692710185758649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_29
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 505
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d92dd72bcb9a6b60800000000000000
+      internalID: 7740170206439090645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_30
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 489
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53d7ba066b0d2680800000000000000
+      internalID: -8778347565780839587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 493
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671b0f492d759dc90800000000000000
+      internalID: -7144582771893030538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_32
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 441
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6220ca0069a21f90800000000000000
+      internalID: -6984333842135899537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_33
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 501
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c574000589fc70410800000000000000
+      internalID: 1443350458679707484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_34
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 441
+        width: 134
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cca120011fa5efb0800000000000000
+      internalID: -4619093355247063872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_35
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 441
+        width: 138
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9324861734a34da80800000000000000
+      internalID: -8443059340072959431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_36
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 481
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8913be956983204e0800000000000000
+      internalID: -2016987464703725160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_37
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 483
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d5862482519f1c0800000000000000
+      internalID: -4469517892531495546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_38
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 441
+        width: 132
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c70cd34ba864380800000000000000
+      internalID: -8987343499636474870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_39
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 241
+        width: 98
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f7f777b659fc4c0800000000000000
+      internalID: -4265026033297686722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_40
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 241
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2395d0daa0f4e51e0800000000000000
+      internalID: -2207239860093363918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_41
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 317
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eba0147c25c6d040800000000000000
+      internalID: 4672138458159950820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_42
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 241
+        width: 112
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af485062bf8164f70800000000000000
+      internalID: 9171045158140347642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 317
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66921b7b6978447f0800000000000000
+      internalID: -629228966528341658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_44
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 305
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f4242b094172560800000000000000
+      internalID: 7288817133620973316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_45
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 321
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e23842a4e8110ee0800000000000000
+      internalID: -1296727847451741472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_46
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 289
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b75bb6389400960800000000000000
+      internalID: 7566128202779032368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_47
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 293
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8126d5c309e41bca0800000000000000
+      internalID: -6002930446913150440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_48
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 241
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1dada46497cdfb0800000000000000
+      internalID: -4621685774778445401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_49
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 301
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da0d8b62f2b395a0800000000000000
+      internalID: -6515667481618740522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_50
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 241
+        width: 134
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefb4ad454cba8fd0800000000000000
+      internalID: -2338850050624143378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_51
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 241
+        width: 137
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46699d97d3a58b00800000000000000
+      internalID: 830249852777096780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_52
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 281
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b5b1544cbcc0e40800000000000000
+      internalID: 5624094078512356141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_53
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 283
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05641f408fffead50800000000000000
+      internalID: 6750614332174845520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_54
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 241
+        width: 132
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65612123f90263d30800000000000000
+      internalID: 4410748753167914582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_55
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 41
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf487159a1a9d12b0800000000000000
+      internalID: -5612160121672596229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_56
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 41
+        width: 118
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e59f36fc85e8aa0800000000000000
+      internalID: -6156885992810127808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_57
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 121
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b207128ae1242b060800000000000000
+      internalID: 6967704272932794411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_58
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 41
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d30acd4501e57c50800000000000000
+      internalID: 6662478636660687829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_59
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 113
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154a058ee7ca971f0800000000000000
+      internalID: -1046615777323473839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_60
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 111
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74178114474d9ff0800000000000000
+      internalID: -27787665016941446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_61
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 97
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193dd3ae18e0456b0800000000000000
+      internalID: -5308602109619481711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_62
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 105
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f7c733ce92ac4b0800000000000000
+      internalID: -5419473107134152885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_63
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 107
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c2241285e74a9b0800000000000000
+      internalID: -5069788363532129247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_64
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 107
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8026ee4b5d8ac290800000000000000
+      internalID: -7869321975571275638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_65
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 41
+        width: 144
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9293e283ffb56c8a0800000000000000
+      internalID: -6285235078231606999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_66
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 41
+        width: 146
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbbdf7d0fac8fdd0800000000000000
+      internalID: -2451986861338543170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_67
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 85
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05192ac0b047d930800000000000000
+      internalID: 4167871108204795146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_68
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 95
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f94ac99661e36c0800000000000000
+      internalID: -4161864362788348130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_69
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 93
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499bc5352b3ecc110800000000000000
+      internalID: 1282650348936018324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_70
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 41
+        width: 140
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457eb201674537670800000000000000
+      internalID: 8535258584851408724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_71
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 83
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8947cb22415137400800000000000000
+      internalID: 320623174699742360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_72
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46d5cc574565f100800000000000000
+      internalID: 141130320505591374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - death_73
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 41
+        width: 142
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ba7c94b47e5c580800000000000000
+      internalID: -8807379185706751188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pumpkin warlock - death_0: -7864006008855404738
+      pumpkin warlock - death_1: -6026606698072425563
+      pumpkin warlock - death_10: -6948405548233691899
+      pumpkin warlock - death_11: -7120142875165151457
+      pumpkin warlock - death_12: -6457651949696684340
+      pumpkin warlock - death_13: -8560236905994775262
+      pumpkin warlock - death_14: 1603581939332026350
+      pumpkin warlock - death_15: -1792484072881235585
+      pumpkin warlock - death_16: -5066754986474484359
+      pumpkin warlock - death_17: 1733902591117481120
+      pumpkin warlock - death_18: 2747413135723131472
+      pumpkin warlock - death_19: -7608092756033369746
+      pumpkin warlock - death_2: -5290449733266475906
+      pumpkin warlock - death_20: -4452663844599657415
+      pumpkin warlock - death_21: 2365088444506260773
+      pumpkin warlock - death_22: 5788000117974382739
+      pumpkin warlock - death_23: -6515459962948700191
+      pumpkin warlock - death_24: -5682720530219180803
+      pumpkin warlock - death_25: -8892941470635399129
+      pumpkin warlock - death_26: 7344633671994869453
+      pumpkin warlock - death_27: 2782103750665091112
+      pumpkin warlock - death_28: -4060692710185758649
+      pumpkin warlock - death_29: 7740170206439090645
+      pumpkin warlock - death_3: 4604477632461484094
+      pumpkin warlock - death_30: -8778347565780839587
+      pumpkin warlock - death_31: -7144582771893030538
+      pumpkin warlock - death_32: -6984333842135899537
+      pumpkin warlock - death_33: 1443350458679707484
+      pumpkin warlock - death_34: -4619093355247063872
+      pumpkin warlock - death_35: -8443059340072959431
+      pumpkin warlock - death_36: -2016987464703725160
+      pumpkin warlock - death_37: -4469517892531495546
+      pumpkin warlock - death_38: -8987343499636474870
+      pumpkin warlock - death_39: -4265026033297686722
+      pumpkin warlock - death_4: 248424870226420510
+      pumpkin warlock - death_40: -2207239860093363918
+      pumpkin warlock - death_41: 4672138458159950820
+      pumpkin warlock - death_42: 9171045158140347642
+      pumpkin warlock - death_43: -629228966528341658
+      pumpkin warlock - death_44: 7288817133620973316
+      pumpkin warlock - death_45: -1296727847451741472
+      pumpkin warlock - death_46: 7566128202779032368
+      pumpkin warlock - death_47: -6002930446913150440
+      pumpkin warlock - death_48: -4621685774778445401
+      pumpkin warlock - death_49: -6515667481618740522
+      pumpkin warlock - death_5: 5247625490900755791
+      pumpkin warlock - death_50: -2338850050624143378
+      pumpkin warlock - death_51: 830249852777096780
+      pumpkin warlock - death_52: 5624094078512356141
+      pumpkin warlock - death_53: 6750614332174845520
+      pumpkin warlock - death_54: 4410748753167914582
+      pumpkin warlock - death_55: -5612160121672596229
+      pumpkin warlock - death_56: -6156885992810127808
+      pumpkin warlock - death_57: 6967704272932794411
+      pumpkin warlock - death_58: 6662478636660687829
+      pumpkin warlock - death_59: -1046615777323473839
+      pumpkin warlock - death_6: -1751256473452051837
+      pumpkin warlock - death_60: -27787665016941446
+      pumpkin warlock - death_61: -5308602109619481711
+      pumpkin warlock - death_62: -5419473107134152885
+      pumpkin warlock - death_63: -5069788363532129247
+      pumpkin warlock - death_64: -7869321975571275638
+      pumpkin warlock - death_65: -6285235078231606999
+      pumpkin warlock - death_66: -2451986861338543170
+      pumpkin warlock - death_67: 4167871108204795146
+      pumpkin warlock - death_68: -4161864362788348130
+      pumpkin warlock - death_69: 1282650348936018324
+      pumpkin warlock - death_7: 1677875201577987983
+      pumpkin warlock - death_70: 8535258584851408724
+      pumpkin warlock - death_71: 320623174699742360
+      pumpkin warlock - death_72: 141130320505591374
+      pumpkin warlock - death_73: -8807379185706751188
+      pumpkin warlock - death_8: -706044181575698008
+      pumpkin warlock - death_9: -8739851690809177981
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
