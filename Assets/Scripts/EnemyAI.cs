@@ -2,105 +2,126 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    // Các biến cũ
+    [Header("Movement")]
     public float moveSpeed = 3f;
+    public float attackRange = 1.5f; // Tầm đánh
+    public bool useSpriteFlipping = false; // THÊM MỚI: Tích vào ô này cho con Ma (Ghost)
+
+    [Header("Stats")]
+    public float baseHealth = 30f; // Máu cơ bản
+    public float attackDamage = 10f; // Sát thương
+    public float attackCooldown = 2.0f; // Tấn công mỗi 2 giây
+    
+    [Header("Drops")]
+    public GameObject expGem; // Prefab của exp
+
+    // Biến nội bộ
     private Transform player;
     private Rigidbody2D rb;
-
-    // Các biến mới
-    private Animator anim; // Biến để điều khiển Animator
-    [Header("Stats")]
-    public float baseHealth = 30f; // ĐỔI TÊN: Máu cơ bản
-    public float healthPerMinute = 15f; // THÊM MỚI: Lượng máu tăng thêm mỗi phút
-    public float attackRange = 1.5f; // Tầm đánh
-    // THAY ĐỔI: Chúng ta cần một biến "health" nội bộ
+    private Animator anim; 
     private float currentHealth;
+    private bool isDead = false;
+    private float attackTimer; // Biến đếm cooldown
+    
+    private Vector3 baseScale;
 
-
-    private bool isDead = false; // Cờ đánh dấu đã chết
-    public GameObject expGem; // Prefab của exp
+    // Biến cho Hitbox (nếu bạn dùng)
+    public GameObject attackHitbox; 
 
     void Start()
     {
-        // Khi mới sinh ra, máu sẽ bằng máu cơ bản
         currentHealth = baseHealth;
         
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>(); // Lấy component Animator
+        anim = GetComponent<Animator>(); 
         
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-        if (playerObject != null)
-        {
-            player = playerObject.transform;
-        }
-        else
-        {
-            Debug.LogError("Không tìm thấy GameObject với tag 'Player'!");
-        }
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        attackTimer = 0f;
+        
+        // Lưu lại kích thước gốc khi game bắt đầu
+        baseScale = transform.localScale;
     }
 
-
-    // --- HÀM MỚI (Được gọi bởi EnemyManager) ---
-    public void ScaleStatsBasedOnTime(float gameTimeInSeconds)
-    {
-        // 1. Tính số phút đã trôi qua
-        float minutesPassed = gameTimeInSeconds / 60f;
-
-        // 2. Tính toán máu tối đa MỚI
-        float maxHealth = baseHealth + (minutesPassed * healthPerMinute);
-
-        // 3. Đặt máu hiện tại = máu tối đa (để nó spawn đầy máu)
-        currentHealth = maxHealth;
-        
-        // (Tùy chọn) Bạn cũng có thể tăng tốc độ ở đây
-        // moveSpeed = baseMoveSpeed + (minutesPassed * 0.1f);
-    }
+    // XÓA BỎ: Hàm ScaleStatsBasedOnTime() và healthPerMinute đã bị xóa
 
     void FixedUpdate()
     {
         if (isDead || player == null) return;
         
+        if (attackTimer > 0)
+        {
+            attackTimer -= Time.fixedDeltaTime;
+        }
+
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
         if (distanceToPlayer > attackRange)
         {
-            // --- TRẠNG THÁI: DI CHUYỂN ---
+            // --- TRẠNG THÁI: DI CHUYỂN (FLY/WALK) ---
             Vector2 direction = (player.position - transform.position).normalized;
             
             rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
+            
+            // --- LOGIC MỚI: LẬT SPRITE HOẶC DÙNG BLEND TREE ---
+            if (useSpriteFlipping)
+            {
+                // Lấy giá trị X tuyệt đối (luôn dương) từ scale gốc
+                float absScaleX = Mathf.Abs(baseScale.x);
+                float scaleY = baseScale.y;
+                float scaleZ = baseScale.z;
 
-            // Cập nhật Animator để chọn hoạt ảnh đi bộ đúng hướng
-            anim.SetFloat("MoveX", direction.x);
-            anim.SetFloat("MoveY", direction.y);
+                // Nếu Enemy di chuyển sang phải (hướng X dương)
+                if (direction.x > 0.01f) 
+                {
+                    // Sprite sẽ lật sang trái (scale X âm) để "quay mặt" về hướng Player đang đi qua
+                    transform.localScale = new Vector3(-absScaleX, scaleY, scaleZ); 
+                }
+                // Nếu Enemy di chuyển sang trái (hướng X âm)
+                else if (direction.x < -0.01f) 
+                {
+                    // Sprite sẽ quay về hướng Player (scale X dương)
+                    transform.localScale = new Vector3(absScaleX, scaleY, scaleZ); 
+                }
+                // (Nếu sprite của bạn có chiều hướng ngược lại,
+                // bạn có thể đổi -absScaleX thành absScaleX và ngược lại)
+            }
+            else
+            {
+                // Dùng cho Bat, Warlock, Pumpkin (quái có 8 hướng)
+                anim.SetFloat("MoveX", direction.x);
+                anim.SetFloat("MoveY", direction.y);
+            }
+            // --------------------------------------------------
         }
         else
         {
-            // --- TRẠNG THÁI: TẤN CÔNG ---
-            rb.linearVelocity = Vector2.zero;
-            // anim.SetFloat("MoveX", 0); // Đảm bảo hoạt ảnh dừng hướng
-            // anim.SetFloat("MoveY", 0); // khi không di chuyển
-            anim.SetTrigger("Attack");
+            // --- TRẠNG THÁI: TẤN CÔNG (ATTACK / APPEAR) ---
+            rb.linearVelocity = Vector2.zero; // SỬA LỖI: dùng 'velocity'
+            
+            // CHỈ TẤN CÔNG NẾU TIMER <= 0
+            if (attackTimer <= 0f)
+            {
+                anim.SetTrigger("Attack");
+                attackTimer = attackCooldown; // Đặt lại timer!
+            }
         }
     }
 
-    // Đây là hàm để các vũ khí của Player gọi
     public void TakeDamage(float damageAmount)
     {
-        if (isDead) return; // Nếu chết rồi thì không nhận sát thương nữa
+        if (isDead) return;
 
         currentHealth -= damageAmount;
 
         if (currentHealth <= 0)
         {
-            // --- TRẠNG THÁI: CHẾT ---
             isDead = true;
             anim.SetBool("isDead", true);
-            anim.SetTrigger("Die"); // Kích hoạt Trigger "Die"
-            rb.linearVelocity = Vector2.zero; // Ngừng di chuyển
-            GetComponent<Collider2D>().enabled = false; // Tắt va chạm
-            // Tùy chọn: Hủy đối tượng này sau vài giây
-            // Destroy(gameObject, 3f); // Hủy sau 3 giây
-            Destroy(gameObject, 1.0f);
+            anim.SetTrigger("Die"); 
+            rb.linearVelocity = Vector2.zero; // SỬA LỖI: dùng 'velocity'
+            GetComponent<Collider2D>().enabled = false; 
+            Destroy(gameObject, 1.5f); // Tăng thời gian lên 1.5s cho chắc
 
             if (expGem != null)
             {
@@ -109,13 +130,34 @@ public class EnemyAI : MonoBehaviour
         }
         else
         {
-            // --- TRẠNG THÁI: BỊ ĐÁNH ---
-            anim.SetTrigger("TakeDamage"); // Kích hoạt Trigger "TakeDamage"
+            anim.SetTrigger("TakeDamage"); 
         }
     }
 
     public bool IsDead()
     {
         return isDead;
+    }
+
+    // --- CÁC HÀM CHO HITBOX (nếu bạn dùng) ---
+    public void EnableAttackHitbox()
+    {
+        if (attackHitbox != null)
+        {
+            EnemyHitbox hitboxScript = attackHitbox.GetComponent<EnemyHitbox>();
+            if (hitboxScript != null)
+            {
+                hitboxScript.damage = this.attackDamage;
+            }
+            attackHitbox.SetActive(true);
+        }
+    }
+
+    public void DisableAttackHitbox()
+    {
+        if (attackHitbox != null)
+        {
+            attackHitbox.SetActive(false);
+        }
     }
 }
