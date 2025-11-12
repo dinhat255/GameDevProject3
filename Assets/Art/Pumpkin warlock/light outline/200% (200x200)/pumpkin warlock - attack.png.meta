@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 21311eddf4bf8cf44999e44d99f3a554
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8957908115600301241
+    second: pumpkin warlock - attack_0
+  - first:
+      213: -4887348589282035845
+    second: pumpkin warlock - attack_1
+  - first:
+      213: -9216574794363591772
+    second: pumpkin warlock - attack_2
+  - first:
+      213: -5188172922422243340
+    second: pumpkin warlock - attack_3
+  - first:
+      213: 3340131722301588923
+    second: pumpkin warlock - attack_4
+  - first:
+      213: 3452587960918093041
+    second: pumpkin warlock - attack_5
+  - first:
+      213: 2896665055875374479
+    second: pumpkin warlock - attack_6
+  - first:
+      213: -6774898555823976017
+    second: pumpkin warlock - attack_7
+  - first:
+      213: -7729318056941172704
+    second: pumpkin warlock - attack_8
+  - first:
+      213: 5687645436130767052
+    second: pumpkin warlock - attack_9
+  - first:
+      213: 4739620223904711015
+    second: pumpkin warlock - attack_10
+  - first:
+      213: -3740837011006221062
+    second: pumpkin warlock - attack_11
+  - first:
+      213: -2859943197209016674
+    second: pumpkin warlock - attack_12
+  - first:
+      213: -6296314120169522459
+    second: pumpkin warlock - attack_13
+  - first:
+      213: -7211376548015116593
+    second: pumpkin warlock - attack_14
+  - first:
+      213: -4607834096656693384
+    second: pumpkin warlock - attack_15
+  - first:
+      213: -8035100217302552812
+    second: pumpkin warlock - attack_16
+  - first:
+      213: 2672483314185202561
+    second: pumpkin warlock - attack_17
+  - first:
+      213: 2846606838515954592
+    second: pumpkin warlock - attack_18
+  - first:
+      213: -8256334542902821925
+    second: pumpkin warlock - attack_19
+  - first:
+      213: -8838194113110386336
+    second: pumpkin warlock - attack_20
+  - first:
+      213: -9215483470735292861
+    second: pumpkin warlock - attack_21
+  - first:
+      213: 4263033929949896499
+    second: pumpkin warlock - attack_22
+  - first:
+      213: 7657128847098887387
+    second: pumpkin warlock - attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 641
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7432e07a70e1fa380800000000000000
+      internalID: -8957908115600301241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 641
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7776523a56ac2cb0800000000000000
+      internalID: -4887348589282035845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 641
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3a3285e06281080800000000000000
+      internalID: -9216574794363591772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 599
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffc8b51738eff7b0800000000000000
+      internalID: -5188172922422243340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_4
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 641
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5cccaca188a5e20800000000000000
+      internalID: 3340131722301588923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_5
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 641
+        width: 90
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc2056357e0aef20800000000000000
+      internalID: 3452587960918093041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 441
+        width: 74
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d1db86585033820800000000000000
+      internalID: 2896665055875374479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_7
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 441
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa11ece88a9baf1a0800000000000000
+      internalID: -6774898555823976017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_8
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 441
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028420ccd22fbb490800000000000000
+      internalID: -7729318056941172704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 431
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc032f4c3639eee40800000000000000
+      internalID: 5687645436130767052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_10
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 433
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76109186b7386c140800000000000000
+      internalID: 4739620223904711015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_11
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 441
+        width: 94
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4175cee80e51cc0800000000000000
+      internalID: -3740837011006221062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 241
+        width: 74
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96cf8490d07f48d0800000000000000
+      internalID: -2859943197209016674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_13
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 241
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eaf401caaffe98a0800000000000000
+      internalID: -6296314120169522459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_14
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 241
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcee9f1bc3b0ceb90800000000000000
+      internalID: -7211376548015116593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_15
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 231
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87748dc6d4fad00c0800000000000000
+      internalID: -4607834096656693384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_16
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 233
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f64059ce69d7090800000000000000
+      internalID: -8035100217302552812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_17
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 241
+        width: 94
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bea223a61961520800000000000000
+      internalID: 2672483314185202561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_18
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 41
+        width: 84
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3f0f076dd218720800000000000000
+      internalID: 2846606838515954592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_19
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 41
+        width: 86
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb7d772a7b9b6d80800000000000000
+      internalID: -8256334542902821925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_20
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 41
+        width: 86
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0695b18e74d685580800000000000000
+      internalID: -8838194113110386336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_21
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 41
+        width: 116
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346c65deb960c1080800000000000000
+      internalID: -9215483470735292861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_22
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 41
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fd914d5c6592b30800000000000000
+      internalID: 4263033929949896499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin warlock - attack_23
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 41
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcb9b20e16934a60800000000000000
+      internalID: 7657128847098887387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pumpkin warlock - attack_0: -8957908115600301241
+      pumpkin warlock - attack_1: -4887348589282035845
+      pumpkin warlock - attack_10: 4739620223904711015
+      pumpkin warlock - attack_11: -3740837011006221062
+      pumpkin warlock - attack_12: -2859943197209016674
+      pumpkin warlock - attack_13: -6296314120169522459
+      pumpkin warlock - attack_14: -7211376548015116593
+      pumpkin warlock - attack_15: -4607834096656693384
+      pumpkin warlock - attack_16: -8035100217302552812
+      pumpkin warlock - attack_17: 2672483314185202561
+      pumpkin warlock - attack_18: 2846606838515954592
+      pumpkin warlock - attack_19: -8256334542902821925
+      pumpkin warlock - attack_2: -9216574794363591772
+      pumpkin warlock - attack_20: -8838194113110386336
+      pumpkin warlock - attack_21: -9215483470735292861
+      pumpkin warlock - attack_22: 4263033929949896499
+      pumpkin warlock - attack_23: 7657128847098887387
+      pumpkin warlock - attack_3: -5188172922422243340
+      pumpkin warlock - attack_4: 3340131722301588923
+      pumpkin warlock - attack_5: 3452587960918093041
+      pumpkin warlock - attack_6: 2896665055875374479
+      pumpkin warlock - attack_7: -6774898555823976017
+      pumpkin warlock - attack_8: -7729318056941172704
+      pumpkin warlock - attack_9: 5687645436130767052
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
