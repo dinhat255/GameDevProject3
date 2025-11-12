@@ -1,105 +1,119 @@
 using UnityEngine;
+using System.Collections.Generic; // BẮT BUỘC CÓ dòng này để dùng List
+
+// [System.Serializable] để nó hiện ra trong Inspector
+[System.Serializable]
+public class EnemySpawnWave
+{
+    public GameObject enemyPrefab;    // Kéo Prefab (Bat, Ghost...) vào đây
+    public float timeToStartSpawning; // Thời gian "mở khóa" quái này (tính bằng giây)
+}
 
 public class EnemyManager : MonoBehaviour
 {
-    // Kéo Prefab "Enemy" của bạn vào đây trong Inspector
-    public GameObject enemyPrefab; 
-    
-    // Thời gian giữa mỗi lần "đẻ" quái (giây)
-    public float initialSpawnInterval = 10.0f; // ĐỔI TÊN: Thời gian spawn ban đầu
-    public float minSpawnInterval = 0.5f;     // THÊM MỚI: Thời gian spawn ít nhất (nhanh nhất)
-    
-    // Khoảng cách tối thiểu/tối đa so với Player
-    public float minSpawnRadius = 10f; 
+    [Header("Enemy Tiers (Sắp xếp từ yếu đến mạnh)")]
+    // THAY THẾ: Dùng một danh sách (Array) các đợt quái
+    public EnemySpawnWave[] spawnWaves;
+
+    [Header("Spawning Settings")]
+    public float initialSpawnInterval = 2.0f;
+    public float minSpawnInterval = 0.5f;
+    public int maxEnemies = 50;
+    public float minSpawnRadius = 10f;
     public float maxSpawnRadius = 15f;
 
-    public int maxEnemies = 50;
-
-    private bool isStart = true;
-
     [Header("Difficulty Scaling")]
-    public float timeToMaxDifficulty = 300f; // THÊM MỚI: Thời gian để đạt độ khó tối đa (300s = 5 phút)
+    public float timeToMaxDifficulty = 300f; // 5 phút
 
     private float spawnTimer;
     private Transform playerTransform;
+    private float gameTimer = 0f;
 
-    private float gameTimer = 0f; // THÊM MỚI: Đồng hồ bấm giờ toàn cục
+    // Biến này để lưu danh sách quái có thể "đẻ"
+    private List<GameObject> availableEnemies = new List<GameObject>();
 
     void Start()
     {
-        // Bắt đầu đếm ngược để "đẻ" ngay
-        spawnTimer = initialSpawnInterval; // Dùng thời gian ban đầu
-        
-        // Tìm Player
+        spawnTimer = 0f;
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-        if (isStart)
-        {
-            isStart = false;
-            Instantiate(enemyPrefab, playerTransform.position + new Vector3(3f, 3f, 0f), Quaternion.identity);
-            print("Spawned initial enemy");
-        }
-        
+
         if (playerTransform == null)
         {
-            Debug.LogError("Không tìm thấy Player! Hãy đảm bảo Player có Tag là 'Player'");
+            Debug.LogError("Không tìm thấy Player!");
         }
+
+        // Cập nhật danh sách quái có thể spawn ngay lúc bắt đầu
+        UpdateAvailableEnemies();
     }
 
     void Update()
     {
-        if (playerTransform == null) return; 
+        if (playerTransform == null) return;
 
-        // 1. Đồng hồ toàn cục luôn đếm
         gameTimer += Time.deltaTime;
-
         spawnTimer -= Time.deltaTime;
-
-        
 
         if (spawnTimer <= 0f)
         {
-            // 2. Tính toán thời gian spawn MỚI dựa trên gameTimer
-            // Dùng Lerp để giảm dần từ initial xuống min over time
+            // Tính toán thời gian spawn (logic này vẫn giữ nguyên)
             float currentSpawnInterval = Mathf.Lerp(
-                initialSpawnInterval,  // Giảm từ...
-                minSpawnInterval,      // ...xuống đến
-                gameTimer / timeToMaxDifficulty // % quãng đường đã đi (từ 0.0 đến 1.0)
+                initialSpawnInterval,
+                minSpawnInterval,
+                gameTimer / timeToMaxDifficulty
             );
+            spawnTimer = currentSpawnInterval;
 
-            // 3. Đặt lại đồng hồ spawn với giá trị MỚI
-            spawnTimer = currentSpawnInterval; 
+            // Kiểm tra xem có nên "mở khóa" quái mới không
+            UpdateAvailableEnemies();
 
-            // Logic kiểm tra số lượng Enemy cũ
+            // Spawn quái
             int currentEnemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
             if (currentEnemyCount < maxEnemies)
             {
-                SpawnEnemy(); // Gọi hàm "đẻ" quái
+                SpawnEnemy(); // Gọi hàm "đẻ" quái (đã được nâng cấp)
             }
-            
+        }
+    }
+
+    // Kiểm tra xem thời gian đã đủ để thêm quái mới vào danh sách chưa
+    void UpdateAvailableEnemies()
+    {
+        // Duyệt qua tất cả các đợt quái bạn cài đặt
+        foreach (var wave in spawnWaves)
+        {
+            // Nếu thời gian game >= thời gian "mở khóa"
+            if (gameTimer >= wave.timeToStartSpawning)
+            {
+                // Và nếu quái này CHƯA có trong danh sách
+                if (!availableEnemies.Contains(wave.enemyPrefab))
+                {
+                    // Thêm nó vào danh sách "có thể đẻ"
+                    availableEnemies.Add(wave.enemyPrefab);
+                    Debug.Log("Đã mở khóa quái mới: " + wave.enemyPrefab.name);
+                }
+            }
         }
     }
 
     void SpawnEnemy()
     {
-        // 1. Tính một góc ngẫu nhiên (0 đến 360 độ)
+        // Nếu không có quái nào (game vừa bắt đầu, chưa kịp load)
+        if (availableEnemies.Count == 0) return;
+
+        // --- SỬA LỖI ---
+        // 1. Chọn 1 Prefab NGẪU NHIÊN từ danh sách "đã mở khóa"
+        GameObject prefabToSpawn = availableEnemies[Random.Range(0, availableEnemies.Count)];
+
+        // 2. Code tính vị trí spawn (giữ nguyên)
         float randomAngle = Random.Range(0f, 360f);
         float randomRadius = Random.Range(minSpawnRadius, maxSpawnRadius);
         Vector2 spawnDirection = new Vector2(Mathf.Cos(randomAngle * Mathf.Deg2Rad), Mathf.Sin(randomAngle * Mathf.Deg2Rad));
         Vector3 spawnPosition = playerTransform.position + (Vector3)(spawnDirection * randomRadius);
 
-        // --- NÂNG CẤP HÀM SPAWN ---
-        // 4. "Đẻ" quái và lưu nó vào một biến
-        GameObject newEnemyObject = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+        // 3. "Đẻ" con quái đã chọn ngẫu nhiên
+        Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
 
-        // 5. Lấy script EnemyAI từ con quái vừa "đẻ"
-        EnemyAI enemyScript = newEnemyObject.GetComponent<EnemyAI>();
-
-        // 6. "Bơm" máu cho nó
-        if (enemyScript != null)
-        {
-            // Gọi một hàm mới (chúng ta sẽ tạo ở Bước 2)
-            // và truyền "gameTimer" (thời gian hiện tại) vào
-            enemyScript.ScaleStatsBasedOnTime(gameTimer);
-        }
+        // 4. (XÓA BỎ) Không gọi hàm ScaleStatsBasedOnTime nữa
+        // vì sức mạnh quái là cố định
     }
 }
