@@ -125,6 +125,7 @@ public class PlayerController : MonoBehaviour
 
             // 3. In ra Console để test
             Debug.Log("EXP: " + currentEXP);
-        }
+
+            }
     }
 }

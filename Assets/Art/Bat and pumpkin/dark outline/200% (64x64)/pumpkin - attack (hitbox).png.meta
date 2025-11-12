@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: e47a18044dc6eab4997e51318f03a8da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2143637074550043436
+    second: pumpkin - attack (hitbox)_0
+  - first:
+      213: 2703152926675714719
+    second: pumpkin - attack (hitbox)_1
+  - first:
+      213: 6841277807636568139
+    second: pumpkin - attack (hitbox)_2
+  - first:
+      213: 5834468353309638792
+    second: pumpkin - attack (hitbox)_3
+  - first:
+      213: 1835065754924386919
+    second: pumpkin - attack (hitbox)_4
+  - first:
+      213: -7693207087580217213
+    second: pumpkin - attack (hitbox)_5
+  - first:
+      213: -4659451211328671502
+    second: pumpkin - attack (hitbox)_6
+  - first:
+      213: -6727065915155299748
+    second: pumpkin - attack (hitbox)_7
+  - first:
+      213: 7254927026512444472
+    second: pumpkin - attack (hitbox)_8
+  - first:
+      213: 2697351313466793796
+    second: pumpkin - attack (hitbox)_9
+  - first:
+      213: -5719937633791804381
+    second: pumpkin - attack (hitbox)_10
+  - first:
+      213: 5929779593894860798
+    second: pumpkin - attack (hitbox)_11
+  - first:
+      213: -25905746040748303
+    second: pumpkin - attack (hitbox)_12
+  - first:
+      213: -4569105140365043604
+    second: pumpkin - attack (hitbox)_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 143
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23b9e3df8abfbd10800000000000000
+      internalID: 2143637074550043436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 193
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f924010d347838520800000000000000
+      internalID: 2703152926675714719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 193
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48d0fd5be911fe50800000000000000
+      internalID: 6841277807636568139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_3
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88087441e0238f050800000000000000
+      internalID: 5834468353309638792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a80cdd496777910800000000000000
+      internalID: 1835065754924386919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 143
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38083490aec3c3590800000000000000
+      internalID: -7693207087580217213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_6
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 143
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0bd746fcd465fb0800000000000000
+      internalID: -4659451211328671502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 79
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52c7821139a4a2a0800000000000000
+      internalID: -6727065915155299748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 79
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cb7ae31bdaea460800000000000000
+      internalID: 7254927026512444472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_9
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 79
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f1f997abaee6520800000000000000
+      internalID: 2697351313466793796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_10
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 21
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c73701703be90b0800000000000000
+      internalID: -5719937633791804381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_11
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 21
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef796729f1fca4250800000000000000
+      internalID: 5929779593894860798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f689997cd6f3aff0800000000000000
+      internalID: -25905746040748303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin - attack (hitbox)_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68512f35174790c0800000000000000
+      internalID: -4569105140365043604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pumpkin - attack (hitbox)_0: 2143637074550043436
+      pumpkin - attack (hitbox)_1: 2703152926675714719
+      pumpkin - attack (hitbox)_10: -5719937633791804381
+      pumpkin - attack (hitbox)_11: 5929779593894860798
+      pumpkin - attack (hitbox)_12: -25905746040748303
+      pumpkin - attack (hitbox)_13: -4569105140365043604
+      pumpkin - attack (hitbox)_2: 6841277807636568139
+      pumpkin - attack (hitbox)_3: 5834468353309638792
+      pumpkin - attack (hitbox)_4: 1835065754924386919
+      pumpkin - attack (hitbox)_5: -7693207087580217213
+      pumpkin - attack (hitbox)_6: -4659451211328671502
+      pumpkin - attack (hitbox)_7: -6727065915155299748
+      pumpkin - attack (hitbox)_8: 7254927026512444472
+      pumpkin - attack (hitbox)_9: 2697351313466793796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
