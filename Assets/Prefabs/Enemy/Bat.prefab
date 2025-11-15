@@ -224,7 +224,7 @@ MonoBehaviour:
   moveSpeed: 4
   attackRange: 1
   useSpriteFlipping: 0
-  baseHealth: 10
+  baseHealth: 40
   attackDamage: 5
   attackCooldown: 1.5
   expGem: {fileID: 7235711706064244352, guid: e60c210b910b900438f29f28d8687416, type: 3}

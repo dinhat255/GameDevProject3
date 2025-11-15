@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyManager
   spawnWaves:
   - enemyPrefab: {fileID: 7505135120004679682, guid: 83ce05c5381cd8c4e9bcb0a048b4dd96, type: 3}
-    timeToStartSpawning: 0
+    timeToStartSpawning: 10
   - enemyPrefab: {fileID: 6348368564321319079, guid: 044d0aaa84ad013498370923bc577753, type: 3}
     timeToStartSpawning: 10
   - enemyPrefab: {fileID: 4691547327568382703, guid: 8b8b278d85541cf4b87a49d019b9a9af, type: 3}
