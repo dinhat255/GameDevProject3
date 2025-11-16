@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 5753390935713131850}
   - component: {fileID: 3145728849887569204}
   - component: {fileID: 3807440137701124918}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5753390935713131850
 Transform:
   m_ObjectHideFlags: 0
@@ -106,7 +106,8 @@ GameObject:
   - component: {fileID: 1704996350858367910}
   - component: {fileID: 2036156663016670790}
   - component: {fileID: 3691402289272817200}
-  m_Layer: 0
+  - component: {fileID: 851473221956855994}
+  m_Layer: 3
   m_Name: Bat
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -229,6 +230,7 @@ MonoBehaviour:
   attackCooldown: 1.5
   expGem: {fileID: 7235711706064244352, guid: e60c210b910b900438f29f28d8687416, type: 3}
   attackHitbox: {fileID: 6814193156132577418}
+  expDropCount: 3
 --- !u!68 &2036156663016670790
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -259,7 +261,7 @@ EdgeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -318,3 +320,40 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!70 &851473221956855994
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7505135120004679682}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0000000055209757, y: -0.009257411}
+  m_Size: {x: 0.10855834, y: 0.027793236}
+  m_Direction: 1

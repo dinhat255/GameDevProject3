@@ -5,6 +5,7 @@ public class MainPlayerController : MonoBehaviour
     public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
 
     [SerializeField] private float moveSpeed = 1f;
+    public float CurrentMoveSpeed => moveSpeed;
 
     private MainPlayerInput playerControls;
     private Vector2 movement;
@@ -74,4 +75,10 @@ public class MainPlayerController : MonoBehaviour
             FacingLeft = false;
         }
     }
+
+    public void AddMoveSpeedMultiplier(float multiplier)
+    {
+        moveSpeed *= multiplier;
+    }
+
 }

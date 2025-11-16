@@ -34,6 +34,8 @@ public class Sword : MonoBehaviour
 
     private void Update()
     {
+        if (Time.timeScale == 0f) return;
+
         MouseFollowWithOffset();
     }
 

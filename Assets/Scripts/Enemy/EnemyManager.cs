@@ -1,21 +1,19 @@
 using UnityEngine;
-using System.Collections.Generic; // BẮT BUỘC CÓ dòng này để dùng List
+using System.Collections.Generic;
 
-// [System.Serializable] để nó hiện ra trong Inspector
 [System.Serializable]
 public class EnemySpawnWave
 {
-    public GameObject enemyPrefab;    // Kéo Prefab (Bat, Ghost...) vào đây
-    public float timeToStartSpawning; // Thời gian "mở khóa" quái này (tính bằng giây)
+    public GameObject enemyPrefab;          // Prefab quái
+    public float timeToStartSpawning = 0f;  // Mở khóa spawn sau X giây
 }
 
 public class EnemyManager : MonoBehaviour
 {
-    [Header("Enemy Tiers (Sắp xếp từ yếu đến mạnh)")]
-    // THAY THẾ: Dùng một danh sách (Array) các đợt quái
+    [Header("Enemy Unlock Waves")]
     public EnemySpawnWave[] spawnWaves;
 
-    [Header("Spawning Settings")]
+    [Header("Spawn Settings")]
     public float initialSpawnInterval = 2.0f;
     public float minSpawnInterval = 0.5f;
     public int maxEnemies = 50;
@@ -23,97 +21,111 @@ public class EnemyManager : MonoBehaviour
     public float maxSpawnRadius = 15f;
 
     [Header("Difficulty Scaling")]
-    public float timeToMaxDifficulty = 300f; // 5 phút
+    public float waveInterval = 30f;                // Mỗi 30s tăng 1 wave
+    public float healthMultiplierPerWave = 1.15f;   // Mỗi wave tăng 15% máu
+    public float damageMultiplierPerWave = 1.10f;   // +10% damage
+    public float speedMultiplierPerWave = 1.05f;    // +5% speed
 
-    private float spawnTimer;
-    private Transform playerTransform;
+    public int currentWave = 1;
+    private float spawnTimer = 0f;
     private float gameTimer = 0f;
 
-    // Biến này để lưu danh sách quái có thể "đẻ"
+    private Transform player;
     private List<GameObject> availableEnemies = new List<GameObject>();
 
-    void Start()
+    private void Start()
     {
-        spawnTimer = 0f;
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
-        if (playerTransform == null)
+        if (player == null)
         {
-            Debug.LogError("Không tìm thấy Player!");
+            Debug.LogError("EnemyManager: Không tìm thấy Player!");
+            enabled = false;
+            return;
         }
 
-        // Cập nhật danh sách quái có thể spawn ngay lúc bắt đầu
         UpdateAvailableEnemies();
     }
 
-    void Update()
+    private void Update()
     {
-        if (playerTransform == null) return;
+        if (player == null) return;
 
         gameTimer += Time.deltaTime;
         spawnTimer -= Time.deltaTime;
 
+        HandleWaveProgression();
+        UpdateAvailableEnemies();
+
         if (spawnTimer <= 0f)
         {
-            // Tính toán thời gian spawn (logic này vẫn giữ nguyên)
-            float currentSpawnInterval = Mathf.Lerp(
+            float spawnInterval = Mathf.Lerp(
                 initialSpawnInterval,
                 minSpawnInterval,
-                gameTimer / timeToMaxDifficulty
+                gameTimer / 300f // 5 phút
             );
-            spawnTimer = currentSpawnInterval;
 
-            // Kiểm tra xem có nên "mở khóa" quái mới không
-            UpdateAvailableEnemies();
+            spawnTimer = spawnInterval;
 
-            // Spawn quái
-            int currentEnemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
-            if (currentEnemyCount < maxEnemies)
+            int enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
+            if (enemyCount < maxEnemies)
             {
-                SpawnEnemy(); // Gọi hàm "đẻ" quái (đã được nâng cấp)
+                SpawnEnemy();
             }
         }
     }
 
-    // Kiểm tra xem thời gian đã đủ để thêm quái mới vào danh sách chưa
-    void UpdateAvailableEnemies()
+    // Tăng wave theo thời gian
+    private void HandleWaveProgression()
     {
-        // Duyệt qua tất cả các đợt quái bạn cài đặt
+        if (gameTimer >= currentWave * waveInterval)
+        {
+            currentWave++;
+            Debug.Log($"WAVE UP → Wave {currentWave}");
+        }
+    }
+
+    // Mở khóa quái mới theo thời gian
+    private void UpdateAvailableEnemies()
+    {
         foreach (var wave in spawnWaves)
         {
-            // Nếu thời gian game >= thời gian "mở khóa"
-            if (gameTimer >= wave.timeToStartSpawning)
+            if (gameTimer >= wave.timeToStartSpawning &&
+                !availableEnemies.Contains(wave.enemyPrefab))
             {
-                // Và nếu quái này CHƯA có trong danh sách
-                if (!availableEnemies.Contains(wave.enemyPrefab))
-                {
-                    // Thêm nó vào danh sách "có thể đẻ"
-                    availableEnemies.Add(wave.enemyPrefab);
-                    Debug.Log("Đã mở khóa quái mới: " + wave.enemyPrefab.name);
-                }
+                availableEnemies.Add(wave.enemyPrefab);
+                Debug.Log("Unlocked Enemy: " + wave.enemyPrefab.name);
             }
         }
     }
 
-    void SpawnEnemy()
+    // ======================
+    // SPAWN ENEMY (CHÍNH)
+    // ======================
+    private void SpawnEnemy()
     {
-        // Nếu không có quái nào (game vừa bắt đầu, chưa kịp load)
         if (availableEnemies.Count == 0) return;
 
-        // --- SỬA LỖI ---
-        // 1. Chọn 1 Prefab NGẪU NHIÊN từ danh sách "đã mở khóa"
-        GameObject prefabToSpawn = availableEnemies[Random.Range(0, availableEnemies.Count)];
+        // Random enemy từ danh sách đã unlock
+        GameObject prefab = availableEnemies[Random.Range(0, availableEnemies.Count)];
 
-        // 2. Code tính vị trí spawn (giữ nguyên)
-        float randomAngle = Random.Range(0f, 360f);
-        float randomRadius = Random.Range(minSpawnRadius, maxSpawnRadius);
-        Vector2 spawnDirection = new Vector2(Mathf.Cos(randomAngle * Mathf.Deg2Rad), Mathf.Sin(randomAngle * Mathf.Deg2Rad));
-        Vector3 spawnPosition = playerTransform.position + (Vector3)(spawnDirection * randomRadius);
+        // Tính vị trí spawn
+        float angle = Random.Range(0f, 360f) * Mathf.Deg2Rad;
+        float radius = Random.Range(minSpawnRadius, maxSpawnRadius);
+        Vector3 spawnPos = player.position + new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0) * radius;
 
-        // 3. "Đẻ" con quái đã chọn ngẫu nhiên
-        Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+        // Spawn quái
+        GameObject enemyObj = Instantiate(prefab, spawnPos, Quaternion.identity);
 
-        // 4. (XÓA BỎ) Không gọi hàm ScaleStatsBasedOnTime nữa
-        // vì sức mạnh quái là cố định
+        // Scale stats theo wave
+        EnemyAI ai = enemyObj.GetComponent<EnemyAI>();
+        if (ai != null)
+        {
+            float h = Mathf.Pow(healthMultiplierPerWave, currentWave - 1);
+            float d = Mathf.Pow(damageMultiplierPerWave, currentWave - 1);
+            float s = Mathf.Pow(speedMultiplierPerWave, currentWave - 1);
+
+            ai.ScaleStats(h, d, s);
+        }
     }
 }

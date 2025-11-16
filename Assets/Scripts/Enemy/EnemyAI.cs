@@ -28,6 +28,8 @@ public class EnemyAI : MonoBehaviour
     // Biến cho Hitbox (nếu bạn dùng)
     public GameObject attackHitbox;
 
+    [Header("Drops")]
+    public int expDropCount = 1;
     void Start()
     {
         currentHealth = baseHealth;
@@ -120,13 +122,28 @@ public class EnemyAI : MonoBehaviour
             anim.SetBool("isDead", true);
             anim.SetTrigger("Die");
             rb.linearVelocity = Vector2.zero; // SỬA LỖI: dùng 'velocity'
+                                              // TẮT TẤT CẢ HITBOX NGAY KHI CHẾT  ⬇⬇⬇
+            if (attackHitbox != null)
+                attackHitbox.SetActive(false);
+
+            // Tắt collider thân chính
+            GetComponent<Collider2D>().enabled = false;
+
+            // Nếu enemy có nhiều collider (trong con) → tắt luôn
+            foreach (Collider2D col in GetComponentsInChildren<Collider2D>())
+                col.enabled = false;
             GetComponent<Collider2D>().enabled = false;
             Destroy(gameObject, 1.5f); // Tăng thời gian lên 1.5s cho chắc
 
             if (expGem != null)
             {
-                Instantiate(expGem, transform.position, Quaternion.identity);
+                for (int i = 0; i < expDropCount; i++)
+                {
+                    Vector2 offset = Random.insideUnitCircle * 0.3f;
+                    Instantiate(expGem, (Vector2)transform.position + offset, Quaternion.identity);
+                }
             }
+
         }
         else
         {
@@ -160,4 +177,16 @@ public class EnemyAI : MonoBehaviour
             attackHitbox.SetActive(false);
         }
     }
+
+    public void ScaleStats(float healthMul, float damageMul, float speedMul)
+    {
+        baseHealth *= healthMul;
+        attackDamage *= damageMul;
+        moveSpeed *= speedMul;
+
+        currentHealth = baseHealth; // reset HP đã scale
+
+        Debug.Log($"Scaled → HP:{baseHealth} | DMG:{attackDamage} | SPD:{moveSpeed}");
+    }
+
 }

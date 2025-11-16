@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 3515617096326912910}
   - component: {fileID: 2840361489999109237}
   - component: {fileID: 2525971607382208471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3515617096326912910
 Transform:
   m_ObjectHideFlags: 0
@@ -106,7 +106,8 @@ GameObject:
   - component: {fileID: 1691774343687700868}
   - component: {fileID: 3293375054618555113}
   - component: {fileID: 471617348738750478}
-  m_Layer: 0
+  - component: {fileID: 1025763766045124503}
+  m_Layer: 3
   m_Name: Pumpkin
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -229,6 +230,7 @@ MonoBehaviour:
   attackCooldown: 2
   expGem: {fileID: 7235711706064244352, guid: e60c210b910b900438f29f28d8687416, type: 3}
   attackHitbox: {fileID: 4224916176156646045}
+  expDropCount: 5
 --- !u!50 &3293375054618555113
 Rigidbody2D:
   serializedVersion: 5
@@ -286,7 +288,7 @@ EdgeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -315,3 +317,40 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!70 &1025763766045124503
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6348368564321319079}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.00079251773, y: -0.054679397}
+  m_Size: {x: 0.15332185, y: 0.061397716}
+  m_Direction: 1
