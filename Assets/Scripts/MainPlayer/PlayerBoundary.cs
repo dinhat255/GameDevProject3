@@ -1,32 +1,53 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerBoundary : MonoBehaviour
 {
     public Transform mapBounds;
-    private BoxCollider2D col;
-    private Camera cam;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private Vector2 boundaryPadding = Vector2.zero;
+
+    private BoxCollider2D boundsCollider;
+
+    private void Start()
     {
-        col = mapBounds.GetComponent<BoxCollider2D>();
-        cam = Camera.main;
+        if (mapBounds != null)
+        {
+            boundsCollider = mapBounds.GetComponent<BoxCollider2D>();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void LateUpdate()
     {
+        if (boundsCollider == null)
+        {
+            return;
+        }
 
-    }
+        Bounds map = boundsCollider.bounds;
+        Vector3 position = transform.position;
 
-    void LateUpdate()
-    {
-        Bounds b = col.bounds;
+        float minX = map.min.x + boundaryPadding.x;
+        float maxX = map.max.x - boundaryPadding.x;
+        float minY = map.min.y + boundaryPadding.y;
+        float maxY = map.max.y - boundaryPadding.y;
 
-        Vector3 pos = transform.position;
+        if (minX > maxX)
+        {
+            position.x = map.center.x;
+        }
+        else
+        {
+            position.x = Mathf.Clamp(position.x, minX, maxX);
+        }
 
-        pos.x = Mathf.Clamp(pos.x, b.min.x, b.max.x);
-        pos.y = Mathf.Clamp(pos.y, b.min.y, b.max.y);
+        if (minY > maxY)
+        {
+            position.y = map.center.y;
+        }
+        else
+        {
+            position.y = Mathf.Clamp(position.y, minY, maxY);
+        }
 
-        transform.position = pos;
+        transform.position = position;
     }
 }

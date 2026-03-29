@@ -1,11 +1,29 @@
-using UnityEngine;
+﻿using UnityEngine;
+using System;
+using System.Collections.Generic;
 
 public class EnemyAI : MonoBehaviour
 {
+    private const string MoveXParam = "MoveX";
+    private const string MoveYParam = "MoveY";
+    private const string AttackTrigger = "Attack";
+    private const string TakeDamageTrigger = "TakeDamage";
+    private const string DieTrigger = "Die";
+    private const string IsDeadParam = "isDead";
+    private const float FlipThreshold = 0.01f;
+    private const float DropScatterRadius = 0.3f;
+    private const float DestroyDelay = 1.5f;
+
     [Header("Movement")]
     public float moveSpeed = 3f;
     public float attackRange = 1.5f;
     public bool useSpriteFlipping = false;
+
+    [Header("Performance")]
+    public float aiTickInterval = 0.08f;
+    public float farAiTickInterval = 0.18f;
+    public float farDistance = 12f;
+    public bool logSpawnScaling = false;
 
     [Header("Stats")]
     public float baseHealth = 30f;
@@ -14,121 +32,228 @@ public class EnemyAI : MonoBehaviour
 
     [Header("Drops")]
     public GameObject expGem;
+    public int expDropCount = 1;
+
+    [Header("Combat")]
+    public GameObject attackHitbox;
+
+    [Header("VFX")]
+    public ParticleSystem hitParticlePrefab;
+    public Vector3 hitParticleOffset = Vector3.zero;
+    public float hitParticleLife = 1f;
 
     private Transform player;
     private Rigidbody2D rb;
-    private Animator anim;
+    private Animator animatorRef;
     private float currentHealth;
-    private bool isDead = false;
+    private bool isDead;
     private float attackTimer;
-
     private Vector3 baseScale;
 
-    public GameObject attackHitbox;
+    private float defaultBaseHealth;
+    private float defaultAttackDamage;
+    private float defaultMoveSpeed;
 
-    [Header("Drops")]
-    public int expDropCount = 1;
-    void Start()
+    private float thinkTimer;
+    private float attackRangeSqr;
+    private float farDistanceSqr;
+    private Vector2 desiredDirection;
+    private float lastAnimX;
+    private float lastAnimY;
+
+    private Action<EnemyAI> returnToPoolAction;
+    private Action<GameObject, Vector3> spawnExpDropAction;
+
+    private static readonly Dictionary<int, Queue<ParticleSystem>> HitParticlePools = new Dictionary<int, Queue<ParticleSystem>>();
+
+    private void Awake()
     {
-        currentHealth = baseHealth;
-
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-
-        attackTimer = 0f;
-
+        animatorRef = GetComponent<Animator>();
         baseScale = transform.localScale;
+
+        defaultBaseHealth = baseHealth;
+        defaultAttackDamage = attackDamage;
+        defaultMoveSpeed = moveSpeed;
+
+        currentHealth = baseHealth;
+        attackTimer = 0f;
+        RecalculateCachedThresholds();
     }
 
-    void FixedUpdate()
+    private void OnEnable()
     {
-        if (isDead || player == null) return;
+        DisableAttackHitbox();
+        desiredDirection = Vector2.zero;
+        thinkTimer = UnityEngine.Random.Range(0f, Mathf.Max(0.01f, aiTickInterval));
+    }
 
-        if (attackTimer > 0)
+    private void OnValidate()
+    {
+        RecalculateCachedThresholds();
+    }
+
+    public void ConfigureForSpawn(Transform playerTarget, float healthMul, float damageMul, float speedMul, Action<EnemyAI> returnToPool)
+    {
+        player = playerTarget;
+        returnToPoolAction = returnToPool;
+
+        isDead = false;
+        attackTimer = 0f;
+        desiredDirection = Vector2.zero;
+        transform.localScale = baseScale;
+
+        baseHealth = defaultBaseHealth * healthMul;
+        attackDamage = defaultAttackDamage * damageMul;
+        moveSpeed = defaultMoveSpeed * speedMul;
+        currentHealth = baseHealth;
+
+        if (animatorRef != null)
+        {
+            animatorRef.Rebind();
+            if (gameObject.activeInHierarchy)
+            {
+                animatorRef.Update(0f);
+            }
+            animatorRef.SetBool(IsDeadParam, false);
+            lastAnimX = 0f;
+            lastAnimY = 0f;
+        }
+
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+        }
+
+        EnableAllColliders();
+        DisableAttackHitbox();
+
+    }
+
+    public void SetExpDropSpawner(Action<GameObject, Vector3> expDropSpawner)
+    {
+        spawnExpDropAction = expDropSpawner;
+    }
+
+    private void FixedUpdate()
+    {
+        if (isDead || player == null)
+        {
+            return;
+        }
+
+        if (attackTimer > 0f)
         {
             attackTimer -= Time.fixedDeltaTime;
         }
 
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-        if (distanceToPlayer > attackRange)
+        thinkTimer -= Time.fixedDeltaTime;
+        if (thinkTimer <= 0f)
         {
-            Vector2 direction = (player.position - transform.position).normalized;
+            Vector2 toPlayer = player.position - transform.position;
+            float sqrDistanceToPlayer = toPlayer.sqrMagnitude;
 
-            rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
+            desiredDirection = sqrDistanceToPlayer > attackRangeSqr ? toPlayer.normalized : Vector2.zero;
 
-            if (useSpriteFlipping)
-            {
-                float absScaleX = Mathf.Abs(baseScale.x);
-                float scaleY = baseScale.y;
-                float scaleZ = baseScale.z;
+            float nextTick = sqrDistanceToPlayer > farDistanceSqr ? farAiTickInterval : aiTickInterval;
+            thinkTimer = Mathf.Max(0.01f, nextTick);
+        }
 
-                if (direction.x > 0.01f)
-                {
-                    transform.localScale = new Vector3(-absScaleX, scaleY, scaleZ);
-                }
-                else if (direction.x < -0.01f)
-                {
-                    transform.localScale = new Vector3(absScaleX, scaleY, scaleZ);
-                }
-            }
-            else
-            {
-                anim.SetFloat("MoveX", direction.x);
-                anim.SetFloat("MoveY", direction.y);
-            }
+        if (desiredDirection == Vector2.zero)
+        {
+            TryAttack();
         }
         else
         {
-            rb.linearVelocity = Vector2.zero;
-
-            if (attackTimer <= 0f)
-            {
-                anim.SetTrigger("Attack");
-                attackTimer = attackCooldown;
-            }
+            MoveTowardsPlayer(desiredDirection);
         }
     }
 
     public void TakeDamage(float damageAmount)
     {
-        if (isDead) return;
+        if (isDead)
+        {
+            return;
+        }
 
         currentHealth -= damageAmount;
 
-        if (currentHealth <= 0)
+        SpawnHitParticle();
+
+        if (currentHealth <= 0f)
         {
-            isDead = true;
-            anim.SetBool("isDead", true);
-            anim.SetTrigger("Die");
-            rb.linearVelocity = Vector2.zero;
+            HandleDeath();
+        }
+        else if (animatorRef != null)
+        {
+            animatorRef.SetTrigger(TakeDamageTrigger);
+        }
+    }
 
-            if (attackHitbox != null)
-                attackHitbox.SetActive(false);
+    private void SpawnHitParticle()
+    {
+        if (hitParticlePrefab == null)
+        {
+            return;
+        }
 
-            GetComponent<Collider2D>().enabled = false;
+        ParticleSystem vfx = RentHitParticle(out int poolKey);
+        if (vfx == null)
+        {
+            return;
+        }
 
-            foreach (Collider2D col in GetComponentsInChildren<Collider2D>())
-                col.enabled = false;
-            GetComponent<Collider2D>().enabled = false;
-            Destroy(gameObject, 1.5f);
+        vfx.transform.SetPositionAndRotation(transform.position + hitParticleOffset, Quaternion.identity);
+        vfx.gameObject.SetActive(true);
+        vfx.Play(true);
 
-            if (expGem != null)
+        StartCoroutine(ReturnHitParticleAfter(vfx, poolKey, Mathf.Max(0.1f, hitParticleLife)));
+    }
+
+    private ParticleSystem RentHitParticle(out int poolKey)
+    {
+        poolKey = hitParticlePrefab.GetInstanceID();
+
+        if (!HitParticlePools.TryGetValue(poolKey, out Queue<ParticleSystem> pool))
+        {
+            pool = new Queue<ParticleSystem>();
+            HitParticlePools[poolKey] = pool;
+        }
+
+        while (pool.Count > 0)
+        {
+            ParticleSystem pooled = pool.Dequeue();
+            if (pooled != null)
             {
-                for (int i = 0; i < expDropCount; i++)
-                {
-                    Vector2 offset = Random.insideUnitCircle * 0.3f;
-                    Instantiate(expGem, (Vector2)transform.position + offset, Quaternion.identity);
-                }
+                return pooled;
             }
+        }
 
-        }
-        else
+        ParticleSystem created = Instantiate(hitParticlePrefab);
+        created.gameObject.SetActive(false);
+        return created;
+    }
+
+    private System.Collections.IEnumerator ReturnHitParticleAfter(ParticleSystem particle, int poolKey, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        if (particle == null)
         {
-            anim.SetTrigger("TakeDamage");
+            yield break;
         }
+
+        particle.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+        particle.gameObject.SetActive(false);
+
+        if (!HitParticlePools.TryGetValue(poolKey, out Queue<ParticleSystem> pool))
+        {
+            pool = new Queue<ParticleSystem>();
+            HitParticlePools[poolKey] = pool;
+        }
+
+        pool.Enqueue(particle);
     }
 
     public bool IsDead()
@@ -138,15 +263,18 @@ public class EnemyAI : MonoBehaviour
 
     public void EnableAttackHitbox()
     {
-        if (attackHitbox != null)
+        if (attackHitbox == null)
         {
-            EnemyHitbox hitboxScript = attackHitbox.GetComponent<EnemyHitbox>();
-            if (hitboxScript != null)
-            {
-                hitboxScript.damage = this.attackDamage;
-            }
-            attackHitbox.SetActive(true);
+            return;
         }
+
+        EnemyHitbox hitboxScript = attackHitbox.GetComponent<EnemyHitbox>();
+        if (hitboxScript != null)
+        {
+            hitboxScript.damage = attackDamage;
+        }
+
+        attackHitbox.SetActive(true);
     }
 
     public void DisableAttackHitbox()
@@ -157,15 +285,155 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    public void ScaleStats(float healthMul, float damageMul, float speedMul)
+    private void MoveTowardsPlayer(Vector2 direction)
     {
-        baseHealth *= healthMul;
-        attackDamage *= damageMul;
-        moveSpeed *= speedMul;
+        if (rb != null)
+        {
+            rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
+        }
 
-        currentHealth = baseHealth;
+        if (useSpriteFlipping)
+        {
+            UpdateSpriteFlip(direction.x);
+            return;
+        }
 
-        Debug.Log($"Scaled → HP:{baseHealth} | DMG:{attackDamage} | SPD:{moveSpeed}");
+        UpdateMoveAnimation(direction.x, direction.y);
     }
 
+    private void UpdateMoveAnimation(float x, float y)
+    {
+        if (animatorRef == null)
+        {
+            return;
+        }
+
+        if (Mathf.Abs(lastAnimX - x) > 0.01f)
+        {
+            animatorRef.SetFloat(MoveXParam, x);
+            lastAnimX = x;
+        }
+
+        if (Mathf.Abs(lastAnimY - y) > 0.01f)
+        {
+            animatorRef.SetFloat(MoveYParam, y);
+            lastAnimY = y;
+        }
+    }
+
+    private void UpdateSpriteFlip(float directionX)
+    {
+        float absScaleX = Mathf.Abs(baseScale.x);
+        float scaleY = baseScale.y;
+        float scaleZ = baseScale.z;
+
+        if (directionX > FlipThreshold)
+        {
+            transform.localScale = new Vector3(-absScaleX, scaleY, scaleZ);
+        }
+        else if (directionX < -FlipThreshold)
+        {
+            transform.localScale = new Vector3(absScaleX, scaleY, scaleZ);
+        }
+    }
+
+    private void TryAttack()
+    {
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+
+        if (attackTimer > 0f)
+        {
+            return;
+        }
+
+        if (animatorRef != null)
+        {
+            animatorRef.SetTrigger(AttackTrigger);
+        }
+
+        attackTimer = attackCooldown;
+    }
+
+    private void HandleDeath()
+    {
+        isDead = true;
+
+        if (animatorRef != null)
+        {
+            animatorRef.SetBool(IsDeadParam, true);
+            animatorRef.SetTrigger(DieTrigger);
+        }
+
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+
+        DisableAttackHitbox();
+        DisableAllColliders();
+        SpawnExpDrops();
+
+        StartCoroutine(ReturnToPoolAfterDelay());
+    }
+
+    private System.Collections.IEnumerator ReturnToPoolAfterDelay()
+    {
+        yield return new WaitForSeconds(DestroyDelay);
+
+        if (returnToPoolAction != null)
+        {
+            returnToPoolAction.Invoke(this);
+            yield break;
+        }
+
+        Destroy(gameObject);
+    }
+
+    private void DisableAllColliders()
+    {
+        foreach (Collider2D col in GetComponentsInChildren<Collider2D>())
+        {
+            col.enabled = false;
+        }
+    }
+
+    private void EnableAllColliders()
+    {
+        foreach (Collider2D col in GetComponentsInChildren<Collider2D>())
+        {
+            col.enabled = true;
+        }
+    }
+
+    private void SpawnExpDrops()
+    {
+        if (expGem == null)
+        {
+            return;
+        }
+
+        for (int i = 0; i < expDropCount; i++)
+        {
+            Vector2 offset = UnityEngine.Random.insideUnitCircle * DropScatterRadius;
+            Vector3 dropPos = (Vector2)transform.position + offset;
+
+            if (spawnExpDropAction != null)
+            {
+                spawnExpDropAction.Invoke(expGem, dropPos);
+            }
+            else
+            {
+                Instantiate(expGem, dropPos, Quaternion.identity);
+            }
+        }
+    }
+
+    private void RecalculateCachedThresholds()
+    {
+        attackRangeSqr = attackRange * attackRange;
+        farDistanceSqr = farDistance * farDistance;
+    }
 }

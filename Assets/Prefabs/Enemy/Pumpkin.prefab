@@ -113,7 +113,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3656262991341145012
 Transform:
   m_ObjectHideFlags: 0
@@ -225,12 +225,19 @@ MonoBehaviour:
   moveSpeed: 3
   attackRange: 1.2
   useSpriteFlipping: 0
+  aiTickInterval: 0.08
+  farAiTickInterval: 0.18
+  farDistance: 12
+  logSpawnScaling: 0
   baseHealth: 45
-  attackDamage: 12
+  attackDamage: 20
   attackCooldown: 2
   expGem: {fileID: 7235711706064244352, guid: e60c210b910b900438f29f28d8687416, type: 3}
+  expDropCount: 8
   attackHitbox: {fileID: 4224916176156646045}
-  expDropCount: 5
+  hitParticlePrefab: {fileID: 5664566316518861445, guid: 05d36baf1c107484f8cab89336257b15, type: 3}
+  hitParticleOffset: {x: 0, y: 0, z: 0}
+  hitParticleLife: 1
 --- !u!50 &3293375054618555113
 Rigidbody2D:
   serializedVersion: 5

@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1005383701473616320
 Transform:
   m_ObjectHideFlags: 0
@@ -281,12 +281,19 @@ MonoBehaviour:
   moveSpeed: 2
   attackRange: 1.5
   useSpriteFlipping: 0
+  aiTickInterval: 0.08
+  farAiTickInterval: 0.18
+  farDistance: 12
+  logSpawnScaling: 0
   baseHealth: 80
-  attackDamage: 20
-  attackCooldown: 2.5
+  attackDamage: 30
+  attackCooldown: 2
   expGem: {fileID: 7235711706064244352, guid: e60c210b910b900438f29f28d8687416, type: 3}
+  expDropCount: 12
   attackHitbox: {fileID: 6161383058041574530}
-  expDropCount: 10
+  hitParticlePrefab: {fileID: 3469792693098711768, guid: 02b1850b7f464754ca89381342dcfd92, type: 3}
+  hitParticleOffset: {x: 0, y: 0, z: 0}
+  hitParticleLife: 1
 --- !u!70 &2457652914887389432
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

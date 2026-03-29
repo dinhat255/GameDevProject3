@@ -1,39 +1,64 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class PauseToggleButton : MonoBehaviour
 {
+    [Header("Sprites")]
     public Sprite playSprite;
     public Sprite pauseSprite;
 
+    [Header("UI Panels")]
+    public GameObject pausePanel;
+
     private Image buttonImage;
-    private bool isPaused = false;
+    private bool isPaused;
+
+    private void Awake()
+    {
+        buttonImage = GetComponent<Image>();
+    }
 
     private void Start()
     {
-        buttonImage = GetComponent<Image>();
-        buttonImage.sprite = pauseSprite;
+        SyncStateFromTimeScale();
     }
 
     public void TogglePause()
     {
-        if (isPaused)
+        SetPausedState(!isPaused);
+    }
+
+    private void SetPausedState(bool paused)
+    {
+        isPaused = paused;
+        Time.timeScale = isPaused ? 0f : 1f;
+
+        UpdateButtonSprite();
+        SetAnimators(!isPaused);
+
+        if (pausePanel != null)
         {
-            Time.timeScale = 1f;
-            buttonImage.sprite = pauseSprite;
-            SetAnimators(true);
-            isPaused = false;
-        }
-        else
-        {
-            Time.timeScale = 0f;
-            buttonImage.sprite = playSprite;
-            SetAnimators(false);
-            isPaused = true;
+            pausePanel.SetActive(isPaused);
         }
     }
 
-    void SetAnimators(bool state)
+    private void SyncStateFromTimeScale()
+    {
+        isPaused = Time.timeScale == 0f;
+        UpdateButtonSprite();
+    }
+
+    private void UpdateButtonSprite()
+    {
+        if (buttonImage == null)
+        {
+            return;
+        }
+
+        buttonImage.sprite = isPaused ? playSprite : pauseSprite;
+    }
+
+    private void SetAnimators(bool state)
     {
         Animator[] animators = FindObjectsByType<Animator>(FindObjectsSortMode.None);
 

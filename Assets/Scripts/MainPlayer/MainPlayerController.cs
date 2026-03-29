@@ -1,8 +1,16 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MainPlayerController : MonoBehaviour
 {
-    public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
+    private const string MoveXParam = "moveX";
+    private const string MoveYParam = "moveY";
+    private const float MoveThresholdSqr = 0.0001f;
+
+    public bool FacingLeft
+    {
+        get => facingLeft;
+        private set => facingLeft = value;
+    }
 
     [SerializeField] private float moveSpeed = 1f;
     public float CurrentMoveSpeed => moveSpeed;
@@ -10,8 +18,9 @@ public class MainPlayerController : MonoBehaviour
     private MainPlayerInput playerControls;
     private Vector2 movement;
     private Rigidbody2D rb;
-    private Animator myAnimator;
-    private SpriteRenderer mySpriteRender;
+    private Animator animatorRef;
+    private SpriteRenderer spriteRendererRef;
+    private Camera mainCamera;
 
     private bool facingLeft = false;
 
@@ -19,14 +28,9 @@ public class MainPlayerController : MonoBehaviour
     {
         playerControls = new MainPlayerInput();
         rb = GetComponent<Rigidbody2D>();
-        myAnimator = GetComponent<Animator>();
-        mySpriteRender = GetComponent<SpriteRenderer>();
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
+        animatorRef = GetComponent<Animator>();
+        spriteRendererRef = GetComponent<SpriteRenderer>();
+        mainCamera = Camera.main;
     }
 
     private void OnEnable()
@@ -34,24 +38,39 @@ public class MainPlayerController : MonoBehaviour
         playerControls.Enable();
     }
 
-    // Update is called once per frame
+    private void OnDisable()
+    {
+        playerControls.Disable();
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.SetPlayerMoveSfxActive(false);
+        }
+    }
+
+    private void OnDestroy()
+    {
+        playerControls.Dispose();
+    }
+
     private void Update()
     {
-        PlayerInput();
+        ReadInput();
     }
 
     private void FixedUpdate()
     {
         AdjustPlayerFacingDirection();
         Move();
+        UpdateMoveSfxState();
     }
 
-    private void PlayerInput()
+    private void ReadInput()
     {
         movement = playerControls.Movement.Move.ReadValue<Vector2>();
 
-        myAnimator.SetFloat("moveX", movement.x);
-        myAnimator.SetFloat("moveY", movement.y);
+        animatorRef.SetFloat(MoveXParam, movement.x);
+        animatorRef.SetFloat(MoveYParam, movement.y);
     }
 
     private void Move()
@@ -61,17 +80,22 @@ public class MainPlayerController : MonoBehaviour
 
     private void AdjustPlayerFacingDirection()
     {
+        if (mainCamera == null)
+        {
+            return;
+        }
+
         Vector3 mousePos = Input.mousePosition;
-        Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
+        Vector3 playerScreenPoint = mainCamera.WorldToScreenPoint(transform.position);
 
         if (mousePos.x < playerScreenPoint.x)
         {
-            mySpriteRender.flipX = true;
+            spriteRendererRef.flipX = true;
             FacingLeft = true;
         }
         else
         {
-            mySpriteRender.flipX = false;
+            spriteRendererRef.flipX = false;
             FacingLeft = false;
         }
     }
@@ -79,6 +103,17 @@ public class MainPlayerController : MonoBehaviour
     public void AddMoveSpeedMultiplier(float multiplier)
     {
         moveSpeed *= multiplier;
+    }
+
+    private void UpdateMoveSfxState()
+    {
+        if (AudioManager.Instance == null)
+        {
+            return;
+        }
+
+        bool isMoving = movement.sqrMagnitude > MoveThresholdSqr;
+        AudioManager.Instance.SetPlayerMoveSfxActive(isMoving);
     }
 
 }
